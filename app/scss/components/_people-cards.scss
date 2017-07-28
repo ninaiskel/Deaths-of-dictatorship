@@ -1,0 +1,12 @@
+.people-cards {
+  padding: 80px 0;
+  background: map-get($colors, gray);
+}
+
+// .people-list {
+//   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+//   grid-gap: 2rem;
+//   max-width: 90%;
+//   display: grid;
+//   margin: 0 auto;
+// }

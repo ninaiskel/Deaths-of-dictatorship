@@ -1,0 +1,43 @@
+.card {
+  background: white;
+  transition: all ease .6s;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.22), 0 10px 10px rgba(0,0,0,0.10);
+    transform: scale(1.06);
+
+    img {
+      filter: grayscale(0);
+    }
+  }
+
+  &-pic {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 400px;
+
+    img {
+      width: auto;
+      height: 320px;
+      filter: grayscale(0.6);
+    }
+  }
+
+  &-content {
+    padding: 20px;
+
+    p {
+      display: inline-block;
+    }
+  }
+
+  &-date-death {
+    display: flex;
+
+    p {
+      font-size: 1rem;
+      margin-left: 6px;
+    }
+  }
+
+}
