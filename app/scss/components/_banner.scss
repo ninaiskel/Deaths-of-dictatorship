@@ -32,9 +32,13 @@
     @include breakpoint('small'){
       width: 100%;
     }
-    .link {
-      margin-left: 10px;
+
+    p {
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 0;
     }
+
 
     .counter {
       color: map-get($colors, second);
