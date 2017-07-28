@@ -1,0 +1,53 @@
+.banner {
+  background: map-get($colors, first);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-between;
+  padding: 40px;
+
+  &-head {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      align-items: center;
+      display: flex;
+      align-self: flex-start;
+
+      .triangle {
+        margin-left: 6px;
+      }
+    }
+  }
+
+  &-content {
+    width: 80%;
+
+    @include breakpoint('xlarge'){
+      width: 78%;
+    }
+
+    @include breakpoint('small'){
+      width: 100%;
+    }
+    .link {
+      margin-left: 10px;
+    }
+
+    .counter {
+      color: map-get($colors, second);
+      font-size: 5.4rem;
+
+      @include breakpoint('small'){
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
+.tie {
+  height: 60px;
+  width: 40px;
+}
