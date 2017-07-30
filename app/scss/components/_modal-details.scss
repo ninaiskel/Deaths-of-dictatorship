@@ -1,6 +1,7 @@
 .details-modal {
-    display: none; /* Hidden by default */
     background-color: rgba(0,0,0,0.8);
+    display: none; /* Hidden by default */
+    font-size: .98rem;
     height: 100%;
     left: 0;
     overflow: auto; ;
@@ -8,13 +9,12 @@
     top: 0;
     width: 100%;
     z-index: 1;
-    font-size: .98rem;
 
     &-wrap {
-      float: right;
-      width: 70%;
-      height: 100vh;
       background: white;
+      float: right;
+      height: 100vh;
+      width: 70%;
 
       @include breakpoint('>=small<=medium') {
         height: auto;
@@ -54,10 +54,10 @@
       }
 
       &-photo {
-        text-align: right;
         display: flex;
         flex-direction: column;
         margin-left: 20px;
+        text-align: right;
 
         @include breakpoint('small') {
           margin-bottom: 20px;
@@ -65,9 +65,9 @@
         }
 
         img {
-          width: auto;
           height: 220px;
           max-width: 220px;
+          width: auto;
 
           @include breakpoint('small') {
             height: 180px;
@@ -84,10 +84,10 @@
 }
 
 .content-info {
-  padding: 0 0 40px;
+  border-bottom: 1px solid map-get($colors, border);
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid map-get($colors, border);
+  padding: 0 0 40px;
 
   @include breakpoint('small') {
     display: block;
@@ -105,8 +105,8 @@
 
   &-result {
     color: map-get($colors, second);
-    font-weight: bold;
     font-size: 1.1rem;
+    font-weight: bold;
   }
 }
 
@@ -118,9 +118,10 @@
     padding: 40px 0;
 
     a {
-      text-decoration: underline;
+      color: map-get($colors, second);
+      
       &:hover {
-        color: map-get($colors, second);
+      text-decoration: underline;
       }
     }
   }

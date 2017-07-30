@@ -1,6 +1,18 @@
 .card {
   background: white;
+  flex-basis: 31%;
+  margin: 0 1%;
   transition: all ease .6s;
+
+  @include breakpoint('medium') {
+    flex-basis: 47%;
+	}
+
+  @include breakpoint('small') {
+    flex-basis: 98%;
+	}
+
+
 
   &:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.22), 0 10px 10px rgba(0,0,0,0.10);
@@ -11,14 +23,14 @@
     }
   }
 
+
   &-pic {
     box-sizing: border-box;
     overflow: hidden;
-    width: 400px;
+    width: 100%;
 
     img {
-      width: auto;
-      height: 320px;
+      width: 100%;
       filter: grayscale(0.6);
     }
   }
@@ -39,5 +51,4 @@
       margin-left: 6px;
     }
   }
-
 }
