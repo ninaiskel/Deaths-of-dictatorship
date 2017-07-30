@@ -13,3 +13,29 @@
   border-right: 6px solid transparent;
   border-left:  6px solid transparent;
 }
+
+.botton-back {
+  transition: all .8s ease;
+  
+  svg {
+    margin-right: 6px;
+    position: relative;
+    bottom: -2px;
+  }
+  a {
+    color: map-get($colors, second);
+    text-transform: capitalize;
+    font-size: 1.1rem;
+  }
+
+  &:hover {
+    a {
+      text-decoration: underline;
+    }
+
+    svg {
+      transform: translateX(-6px) scale(1.19);
+    }
+
+  }
+}

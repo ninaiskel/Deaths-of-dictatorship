@@ -33,12 +33,16 @@ p {
 
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.6rem;
   text-transform: uppercase;
   line-height: 1.2;
 
+  @include breakpoint('xlarge') {
+    font-size: 3rem;
+  }
+
   @include breakpoint('medium') {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
   };
 
   @include breakpoint('small'){
@@ -48,7 +52,7 @@ h1 {
 
 h2 {
   font-size: 1.8rem;
-  line-height: 2.2rem
+  line-height: 2.2rem;
 
   @include breakpoint('medium') {
     font-size: 1.6rem;
@@ -61,11 +65,20 @@ h2 {
 
 h3 {
   font-size: 1.3rem;
+
   @include breakpoint('medium') {
     font-size: 1.1rem;
   };
 
   @include breakpoint('small'){
+    font-size: 1rem;
+  }
+}
+
+h4 {
+  font-size: 1.1rem;
+
+  @include breakpoint('>=small<=medium') {
     font-size: 1rem;
   }
 }
