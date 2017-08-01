@@ -1,28 +1,27 @@
 .card {
   background: white;
   flex-basis: 31%;
-  margin: 0 1%;
+  margin: 0 1% 20px;
   transition: all ease .6s;
 
   @include breakpoint('medium') {
-    flex-basis: 47%;
+    flex-basis: 46%;
 	}
 
   @include breakpoint('small') {
-    flex-basis: 98%;
+    flex-basis: 96%;
 	}
 
 
 
   &:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.22), 0 10px 10px rgba(0,0,0,0.10);
-    transform: scale(1.06);
+    transform: scale(1.03);
 
     img {
       filter: grayscale(0);
     }
   }
-
 
   &-pic {
     box-sizing: border-box;
