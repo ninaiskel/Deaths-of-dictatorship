@@ -17,6 +17,7 @@ $breakpoints: (
 	'large'           : "(min-width: 1024px)",
 	'>=small<=medium' : "(min-width: 240px) and (max-width: 1023px)",
 	'medium'          : "(min-width: 700px) and (max-width: 1023px)",
+	'medium-small'    : "(min-width: 500px) and (max-width: 860px)",
 	'small'           : "(min-width: 240px) and (max-width: 699px)",
-	'small-small'     : "(min-width: 240px) and (max-width: 400px)"
+	'small-small'     : "(min-width: 240px) and (max-width: 500px)"
 )!default;

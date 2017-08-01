@@ -4,14 +4,17 @@
   margin: 0 1% 20px;
   transition: all ease .6s;
 
-  @include breakpoint('medium') {
-    flex-basis: 46%;
+  @include breakpoint('xlarge') {
+    flex-basis: 23%;
 	}
 
-  @include breakpoint('small') {
+  @include breakpoint('medium-small') {
+    flex-basis: 48%;
+	}
+
+  @include breakpoint('small-small') {
     flex-basis: 96%;
 	}
-
 
 
   &:hover {
