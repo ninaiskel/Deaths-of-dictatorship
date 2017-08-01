@@ -44,6 +44,15 @@
         <title>icon-back</title>
         <path d="M6.532.215c.273-.287.726-.287 1.008 0 .273.277.273.737 0 1.013L2.43 6.42h16.864c.394 0 .706.318.706.718 0 .4-.312.727-.706.727H2.43l5.11 5.182c.273.286.273.748 0 1.024-.282.29-.736.29-1.008 0L.212 7.65c-.282-.277-.282-.737 0-1.014L6.53.216z" />
       </symbol>
+
+      <symbol id="icon-close" viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg">
+        <title>close</title>
+        <path d="M14.147 16.016l-6.005-6.004-6.005 6.004-2-2L6.14 8.01.137 2.007l2-2L8.143 6.01 14.147.005l2 2-6.004 6.006 6.005 6.007"/>
+      </symbol>
+      <symbol id="icon-filter" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg">
+        <title>filter</title>
+        <path d="M7.778 13.355h4.444v-2.222H7.778v2.222zM0 .022v2.222h20V.022H0zM3.333 7.8h13.334V5.577H3.333V7.8z"/>
+      </symbol>
     </svg>
     <!-- end icons -->
 
@@ -59,59 +68,104 @@
           <p>Listado de asesinados durante las últimas protestas en Venezuela en contra de Nicolas Maduro y su gobierno dictatorial.</p><a class="link" href="#">Leer Mas</a>
         </div>
     </section>
+    <section class="filter container">
+        <div class="filter-inside filter-head">
+          <div class="filter-head-title">
+            <svg class="icon icon-filter">
+              <use xlink:href="#icon-filter"></use>
+            </svg>
+            <h3>filtrar por</h3>
+          </div>
+          <a class="filter-head-close">
+            <svg class="icon icon-close">
+              <use xlink:href="#icon-close"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="filter-form">
+          <form class="filter-inside filter-by" action="">
+            <div class="filter-item filter-by-age">
+              <label for="">Edad</label>
+              <div class="filter-item-options">
+                <a class="btn-option btn-option-on" href="#">Menor de 25</a>
+                <a class="btn-option btn-option-of" href="#">Mayor de 25</a>
+              </div>
+            </div>
+            <div class="filter-item filter-by-state">
+              <label for="">Estado del suceso</label>
+              <div class="filter-select">
+                <select class="filter-item-select" name="" id="">
+                  <option class="select-option" value="">Distrito Capital</option>
+                  <option class="select-option" value="">Estado Miranda</option>
+                  <option class="select-option" value="">Estado Lara</option>
+                </select>
+              </div>
+
+            </div>
+            <div class="filter-item filter-by-date">
+              <div class="time-line">
+                <span class="time-line-range"></span>
+                <ul class="time-line-months">
+                  <li class="start">abril</li>
+                </ul>
+              </div>
+            </div>
+          </form>
+      </div>
+    </section>
     <section class="people-cards">
-      <ul class="people-list ">
+      <ul class="container people-list">
         <li class="card">
-          <a href="#">
-            <div class="card-pic">
-              <span class="card-pic-cover"></span>
-              <img src="images/photos/01-jairo-ortiz.png" alt="">
-            </div>
-            <div class="card-content">
-              <h2 class="card-name">Jairo Johan Ortiz Bustamante </h2>
-              <div class="card-date-death">
-                <svg class="icon-date-death">
-                  <use xlink:href="#icon-death"></use>
-                </svg>
-                <p class="date-death">06. 04. 2017</p>
+            <a href="#">
+              <div class="card-pic">
+                <span class="card-pic-cover"></span>
+                <img src="images/photos/jairo-ortiz.png" alt="">
               </div>
-            </div>
-          </a>
-        </li>
+              <div class="card-content">
+                <h2 class="card-name">Jairo Johan Ortiz Bustamante </h2>
+                <div class="card-date-death">
+                  <svg class="icon icon-date-death">
+                    <use xlink:href="#icon-death"></use>
+                  </svg>
+                  <p class="date-death">06. 04. 2017</p>
+                </div>
+              </div>
+            </a>
+          </li>
         <li class="card">
-          <a href="#">
-            <div class="card-pic">
-              <span class="card-pic-cover"></span>
-              <img src="images/photos/02-daniel-queliz.png" alt="">
-            </div>
-            <div class="card-content">
-              <h2 class="card-name">JDaniel Alejandro Queliz Araca</h2>
-              <div class="card-date-death">
-                <svg class="icon-date-death">
-                  <use xlink:href="#icon-death"></use>
-                </svg>
-                <p class="date-death">10. 04. 2017</p>
+            <a href="#">
+              <div class="card-pic">
+                <span class="card-pic-cover"></span>
+                <img src="images/photos/daniel-queliz.png" alt="">
               </div>
-            </div>
-          </a>
-        </li>
+              <div class="card-content">
+                <h2 class="card-name">Daniel Alejandro Queliz Araca</h2>
+                <div class="card-date-death">
+                  <svg class="icon icon-date-death">
+                    <use xlink:href="#icon-death"></use>
+                  </svg>
+                  <p class="date-death">10. 04. 2017</p>
+                </div>
+              </div>
+            </a>
+          </li>
         <li class="card">
-          <a href="#">
-            <div class="card-pic">
-              <span class="card-pic-cover"></span>
-              <img src="images/photos/02-daniel-queliz.png" alt="">
-            </div>
-            <div class="card-content">
-              <h2 class="card-name">Daniel Alejandro Queliz Araca</h2>
-              <div class="card-date-death">
-                <svg class="icon-date-death">
-                  <use xlink:href="#icon-death"></use>
-                </svg>
-                <p class="date-death">11. 04. 2017</p>
+            <a href="#">
+              <div class="card-pic">
+                <span class="card-pic-cover"></span>
+                <img src="images/photos/daniel-queliz.png" alt="">
               </div>
-            </div>
-          </a>
-        </li>
+              <div class="card-content">
+                <h2 class="card-name">Daniel Alejandro Queliz Araca</h2>
+                <div class="card-date-death">
+                  <svg class="icon icon-date-death">
+                    <use xlink:href="#icon-death"></use>
+                  </svg>
+                  <p class="date-death">11. 04. 2017</p>
+                </div>
+              </div>
+            </a>
+          </li>
       </ul>
     </section>
     <!-- Modal content -->
@@ -123,7 +177,7 @@
             <p>Era estudiante de derecho en el núcleo San Antonio de la Universidad Bicentenaria de Aragua.</p>
           </div>
           <div class="details-modal-header-photo">
-            <img src="images/photos/01-jairo-ortiz.png" alt="">
+            <img src="images/photos/jairo-ortiz.png" alt="">
             <span class="header-age">19 años</span>
           </div>
         </div>

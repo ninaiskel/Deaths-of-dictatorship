@@ -1,0 +1,128 @@
+.filter {
+  padding: 10px 0;
+
+  &-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-title {
+      display: flex;
+      align-items: baseline;
+
+      .icon-filter {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+
+  &-select {
+    position: relative;
+    display: inline-block;
+    border-color: #ddd;
+
+    &:after {
+      color: map-get($colors, second);
+      content: "▾";
+      display: block;
+      margin-top: -15px;
+      position: absolute;
+      right: 20px;
+      top: 50%;
+    }
+
+    select {
+      appearance: none;
+      border-radius: 100px;
+      position: relative;
+      background-color: white;
+      padding: 14px 6px 14px 20px;
+      font-size: 1rem;
+      width: 100%;
+      &:focus {
+        outline: none;
+        border-color: #ddd;
+      }
+    }
+  }
+}
+
+.filter-by {
+  flex-wrap: wrap;
+
+  &-age {
+    flex-basis: 34%;
+
+    @include breakpoint('medium') {
+      flex-basis: 49%;
+    }
+
+    @include breakpoint('small') {
+      flex-basis: 100%;
+    }
+  }
+
+  &-state {
+    flex-basis: 22%;
+    margin-left: 2%;
+
+    @include breakpoint('medium') {
+      flex-basis: 44%;
+    }
+
+    @include breakpoint('small') {
+      flex-basis: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+
+  &-date {
+      flex-basis: 36%;
+      margin-left: 4%;
+
+      @include breakpoint('>=small<=medium') {
+        flex-basis: 100%;
+        margin-top: 20px;
+      }
+  }
+}
+//btn options
+.btn-option {
+  background-color: map-get($colors, border);
+  border-radius: 100px;
+  color: #888;
+  padding: 14px 20px;
+  display: inline-block;
+  margin-right: 10px;
+
+  @include breakpoint('medium') {
+    padding: 10px 16px;
+    margin-right: 8px;
+  }
+
+  @include breakpoint('small') {
+    padding: 10px 14px;
+  }
+
+  &-on {
+    background-color: map-get($colors, first);
+    color: white;
+  }
+}

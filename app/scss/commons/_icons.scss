@@ -1,19 +1,24 @@
-.icon-tie {
-  height: 60px;
-  width: 40px;
-}
-.icon-date-death {
-    height: 20px;
-    width: 20px;
-}
-
-.icon-social {
-  height: 40px;
-  width: 40px;
-}
-
-.icon-back {
+.icon {
   width: 20px;
-  height: 14px;
-  fill: map-get($colors, second);
+  height: 20px;
+
+  @include breakpoint('>=small<=medium') {
+    width: 16px;
+    height: 16px;
+  }
+
+  &-back {
+    height: 14px;
+    fill: map-get($colors, second);
+  }
+
+  &-tie {
+    height: 60px;
+    width: 40px;
+  }
+
+  &-social {
+    height: 40px;
+    width: 40px;
+  }
 }

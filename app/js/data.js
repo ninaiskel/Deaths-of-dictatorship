@@ -1,4 +1,4 @@
-let people = [
+const people = [
   {
     name: "Jairo Ortiz",
     description: "Era estudiante de derecho en el núcleo San Antonio de la Universidad Bicentenaria de Aragua.",
@@ -124,7 +124,5 @@ let people = [
     coments: "murió el jueves en la noche en el Hospital de El Llanito, pasadas las 9:00 pm, debido a una herida por un tiro de fusil en el abdomen cuando atravesaba el puente del barrio 5 de Julio de Petare, media hora en una protesta de vecinos.",
     links:"http://www.el-nacional.com/noticias/sucesos/tiro-fusil-murio-joven-discapacitado-petare_178468" ,
     image: "images/photos/mervis-guitian.png"
-  },
-
-
+  }
 ];

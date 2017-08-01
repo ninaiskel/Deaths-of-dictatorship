@@ -16,7 +16,7 @@
 
 .botton-back {
   transition: all .8s ease;
-  
+
   svg {
     margin-right: 6px;
     position: relative;
@@ -36,6 +36,5 @@
     svg {
       transform: translateX(-6px) scale(1.19);
     }
-
   }
 }

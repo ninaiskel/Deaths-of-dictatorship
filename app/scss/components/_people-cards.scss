@@ -4,13 +4,7 @@
 }
 
 .people-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 0 auto;
-  width: 90%;
-
-    @include breakpoint('xlarge') {
-        width: 84%;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
