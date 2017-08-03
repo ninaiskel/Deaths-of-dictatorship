@@ -1,6 +1,9 @@
+#modal {
+  display: none;
+}
+
 .details-modal {
     background-color: rgba(0,0,0,0.8);
-    display: none; /* Hidden by default */
     font-size: .98rem;
     height: 100%;
     left: 0;
@@ -9,6 +12,8 @@
     top: 0;
     width: 100%;
     z-index: 1;
+    // opacity: 0;
+    // transform: scale(0);
 
     &-wrap {
       background: white;

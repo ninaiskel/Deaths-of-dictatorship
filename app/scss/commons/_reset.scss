@@ -86,3 +86,15 @@ h4 {
 h2, h3, h4 {
   text-transform: capitalize;
 }
+
+button {
+  appearance: none;
+  padding: 0;
+  border: 0;
+  text-align: start;
+  background: transparent;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}

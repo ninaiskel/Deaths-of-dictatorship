@@ -1,6 +1,6 @@
 const people = [
   {
-    name: "Jairo Johan Ortiz Bustamante",
+    name: "Jairo Ortiz",
     description: "Era estudiante de derecho en el núcleo San Antonio de la Universidad Bicentenaria de Aragua.",
     age: 19,
     date_death: {
@@ -11,7 +11,7 @@ const people = [
     place_death: "Estado Miranda",
     coments: "Jairo cayó herido aproximadamente a las 9:30 pm. Estaba cercano a la entrada del centro comercial de la zona, justo al lado de la panadería, ahí lo alcanzó la bala. Sus compañeros de protesta lo trasladaron de inmediato al Centro Médico Docente Los Altos, contiguo al lugar de la protesta y a pocos metros donde se desplomó el joven universitario.",
     links: "http://www.eluniversal.com/noticias/sucesos/padre-jairo-ortiz-hijo-era-totalmente-pacifico_647851",
-    image: "images/photos/jairo-ortiz.png"
+    image: "images/photos/01-jairo-ortiz.png"
   },
   {
     name: "Daniel queliz Araca",
@@ -124,5 +124,22 @@ const people = [
     coments: "murió el jueves en la noche en el Hospital de El Llanito, pasadas las 9:00 pm, debido a una herida por un tiro de fusil en el abdomen cuando atravesaba el puente del barrio 5 de Julio de Petare, media hora en una protesta de vecinos.",
     links:"http://www.el-nacional.com/noticias/sucesos/tiro-fusil-murio-joven-discapacitado-petare_178468" ,
     image: "images/photos/mervis-guitian.png"
-  }
+  },
+
+  {
+    name: "Elio Manuel Pacheco Perez",
+    description: " Estudiaba administración y trabajaba como obrero en la empresa Fospuca.",
+    age: 22,
+    date_death: {
+      day: 20,
+      month: 04,
+      year: 2017
+    },
+    place_death: "Estado Miranda",
+    coments: "falleció producto de una electrocución por el hecho acontecido en la panadería “La Mayer del Pan”, ubicada en la calle San Andrés Cajigal en El Valle, de acuerdo al Ministerio Público.",
+    links:"http://runrun.es/nacional/305901/diez-muertos-en-el-valle-por-saqueo-a-una-panaderia.html" ,
+    image: "images/photos/elio-pacheco.png"
+  },
+
+
 ];

@@ -3,6 +3,8 @@
   flex-basis: 31%;
   margin: 0 1% 20px;
   transition: all ease .6s;
+  cursor: pointer;
+  position: relative;
 
   @include breakpoint('xlarge') {
     flex-basis: 23%;
@@ -16,7 +18,6 @@
     flex-basis: 96%;
 	}
 
-
   &:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.22), 0 10px 10px rgba(0,0,0,0.10);
     transform: scale(1.03);
@@ -24,6 +25,14 @@
     img {
       filter: grayscale(0);
     }
+  }
+
+  &-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   &-pic {

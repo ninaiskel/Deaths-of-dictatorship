@@ -55,7 +55,6 @@
       </symbol>
     </svg>
     <!-- end icons -->
-
     <section class="banner">
         <div class="banner-head">
           <svg class="icon-tie">
@@ -100,7 +99,6 @@
                   <option class="select-option" value="">Estado Lara</option>
                 </select>
               </div>
-
             </div>
             <div class="filter-item filter-by-date">
               <div class="time-line">
@@ -116,64 +114,14 @@
           </form>
       </div>
     </section>
-    <section class="people-cards">
-      <ul class="container people-list">
-        <li class="card">
-            <a href="#">
-              <div class="card-pic">
-                <span class="card-pic-cover"></span>
-                <img src="images/photos/jairo-ortiz.png" alt="">
-              </div>
-              <div class="card-content">
-                <h2 class="card-name">Jairo Johan Ortiz Bustamante </h2>
-                <div class="card-date-death">
-                  <svg class="icon icon-date-death">
-                    <use xlink:href="#icon-death"></use>
-                  </svg>
-                  <p class="date-death">06. 04. 2017</p>
-                </div>
-              </div>
-            </a>
-          </li>
-        <li class="card">
-            <a href="#">
-              <div class="card-pic">
-                <span class="card-pic-cover"></span>
-                <img src="images/photos/daniel-queliz.png" alt="">
-              </div>
-              <div class="card-content">
-                <h2 class="card-name">Daniel Alejandro Queliz Araca</h2>
-                <div class="card-date-death">
-                  <svg class="icon icon-date-death">
-                    <use xlink:href="#icon-death"></use>
-                  </svg>
-                  <p class="date-death">10. 04. 2017</p>
-                </div>
-              </div>
-            </a>
-          </li>
-        <li class="card">
-            <a href="#">
-              <div class="card-pic">
-                <span class="card-pic-cover"></span>
-                <img src="images/photos/daniel-queliz.png" alt="">
-              </div>
-              <div class="card-content">
-                <h2 class="card-name">Daniel Alejandro Queliz Araca</h2>
-                <div class="card-date-death">
-                  <svg class="icon icon-date-death">
-                    <use xlink:href="#icon-death"></use>
-                  </svg>
-                  <p class="date-death">11. 04. 2017</p>
-                </div>
-              </div>
-            </a>
-          </li>
+    <!-- cards people -->
+    <section class="wrap-cards-people">
+      <ul id="cards-people" class="container people-list">
       </ul>
     </section>
     <!-- Modal content -->
     <section id="modal" class="details-modal">
-      <div class="details-modal-wrap">
+      <div id="modal-inside" class="details-modal-wrap">
         <div class="details-modal-header">
           <div class="modal-header-description">
             <h1>Jairo Johan Ortiz Bustamante </h1>
@@ -208,13 +156,13 @@
             <h4>enlaces de informacion</h4>
             <a href="#">El pitazo</a>
           </div>
-          <div class="botton-back">
+          <button onClick"goBack()" class="botton-back">
             <a href="">
-              <svg class="icon-back">
+              <svg class="icon icon-back">
                 <use xlink:href="#icon-back"></use>
               </svg> volver
             </a>
-          </div>
+          <button>
         </div>
       </div>
     </section>
@@ -240,7 +188,9 @@
       </ul>
       <p class="footer-copy">© Copyright - 2017 - <a class="link" href="#">Web</a></p>
     </footer>
-
+  <div id="edit"></div>
+    <script type="text/javascript" src="./js/data.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
   </body>
 
 </html>
