@@ -86,8 +86,12 @@
             <div class="filter-item filter-by-age">
               <label for="">Edad</label>
               <div class="filter-item-options">
-                <a class="btn-option btn-option-on" href="#">Menor de edad</a>
-                <a class="btn-option btn-option-of" href="#">Mayor de edad</a>
+                <button type="button" onClick="filterByAge(false)" class="btn-option btn-option-on" >
+                  Menor de edad
+                </button>
+                <button type="button" onClick="filterByAge(true)" class="btn-option btn-option-of" >
+                  Mayor de edad
+                </button>
               </div>
             </div>
             <div class="filter-item filter-by-state">

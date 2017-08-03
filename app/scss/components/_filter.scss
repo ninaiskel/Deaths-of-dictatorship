@@ -9,10 +9,14 @@
 
     &-title {
       display: flex;
-      align-items: baseline;
+      align-items: center;
 
       .icon-filter {
         margin-right: 10px;
+      }
+
+      h3 {
+        margin: 0;
       }
     }
   }

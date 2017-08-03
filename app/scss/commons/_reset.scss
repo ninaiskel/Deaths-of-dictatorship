@@ -94,6 +94,7 @@ button {
   text-align: start;
   background: transparent;
   cursor: pointer;
+  font-size: inherit;
   &:focus {
     outline: none;
   }
