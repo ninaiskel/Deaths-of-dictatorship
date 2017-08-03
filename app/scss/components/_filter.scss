@@ -46,16 +46,20 @@
       position: absolute;
       right: 20px;
       top: 50%;
+      z-index: 1;
     }
 
     select {
       appearance: none;
+      background-color: transparent;
       border-radius: 100px;
       position: relative;
-      background-color: white;
+      cursor: pointer;
+      font-size: .98rem;
       padding: 14px 6px 14px 20px;
-      font-size: 0.98rem;
       width: 100%;
+      z-index: 2;
+
       &:focus {
         outline: none;
         border-color: #ddd;
@@ -103,6 +107,14 @@
         margin-top: 20px;
       }
   }
+}
+
+#filtered {
+  display: none;
+}
+
+#close-filter {
+  display: none;
 }
 //btn options
 .btn-option {

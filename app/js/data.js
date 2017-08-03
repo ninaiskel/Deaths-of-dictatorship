@@ -1,5 +1,6 @@
 const people = [
   {
+    id: 1,
     name: "Jairo Johan Ortiz Bustamante",
     description: "Era estudiante de derecho en el núcleo San Antonio de la Universidad Bicentenaria de Aragua.",
     age: 19,
@@ -14,6 +15,7 @@ const people = [
     image: "images/photos/jairo-ortiz.png"
   },
   {
+    id: 2,
     name: "Daniel queliz Araca",
     description: "estudiante de derecho de la Universidad Arturo Michelena ",
     age: 20,
@@ -28,6 +30,7 @@ const people = [
     image: "images/photos/daniel-queliz.png"
   },
   {
+    id: 3,
     name: "Miguel colmenares",
     description: "_",
     age: 36,
@@ -42,6 +45,7 @@ const people = [
     image: "images/photos/miguel-colmenares.png"
   },
   {
+    id: 4,
     name: "Brayan David Principal Giménez",
     description: "Adolescente, tercer año de bachillerato.",
     age: 14,
@@ -56,6 +60,7 @@ const people = [
     image: "images/photos/brayan-principal.png"
   },
   {
+    id: 5,
     name: "Gruseny Antonio Canelón Scirpatempo",
     description: "deportista  y se dedicaba a la venta de repuestos de vehículos. Era conocido como Tony por sus amigos y allegados.",
     age: 32,
@@ -70,6 +75,7 @@ const people = [
     image: "images/photos/gruseny-canelon.png"
   },
   {
+    id: 6,
     name: "Carlos José Moreno Barón",
     description: " estudiante de primer semestre de economía en la Universidad Central de Venezuela. Vivía con su madre y hermana. Jugaba futbol en sus tiempos libres.",
     age: 17,
@@ -84,6 +90,7 @@ const people = [
     image: "images/photos/carlos-moreno.png"
   },
   {
+    id: 7,
     name: "Paola Andreína Ramírez Gómez",
     description: "Era estudiante de la Universidad Católica de San Cristóbal.",
     age: 32,
@@ -98,6 +105,7 @@ const people = [
     image: "images/photos/paola-ramirez.png"
   },
   {
+    id: 8,
     name: "Niumar José Sanclemente Barrios",
     description: "sargento segundo de la GNB",
     age: 28,
@@ -112,6 +120,7 @@ const people = [
     image: "images/photos/niumar-sanclemente.png"
   },
   {
+    id: 9,
     name: "Mervins Fernando Guitian Díaz",
     description: "Supervisor de mantenimiento de obras públicas en la Alcaldía del municipio Sucre del estado Miranda. Sufría de epilepsia",
     age: 26,

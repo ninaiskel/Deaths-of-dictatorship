@@ -69,19 +69,19 @@
     </section>
     <section class="filter container">
         <div class="filter-inside filter-head">
-          <div class="filter-head-title">
+          <button class="filter-head-title" onClick="openFilter()">
             <svg class="icon icon-filter">
               <use xlink:href="#icon-filter"></use>
             </svg>
             <h3>filtrar por</h3>
-          </div>
-          <a class="filter-head-close">
+          </button>
+          <button id="close-filter" class="filter-head-close" onClick="closeFiltered()">
             <svg class="icon icon-close">
               <use xlink:href="#icon-close"></use>
             </svg>
-          </a>
+          </button>
         </div>
-        <div class="filter-form">
+        <div id="filtered" class="filter-form">
           <form class="filter-inside filter-by" action="">
             <div class="filter-item filter-by-age">
               <label for="">Edad</label>
@@ -122,48 +122,7 @@
     <!-- Modal content -->
     <section id="modal" class="details-modal">
       <div id="modal-inside" class="details-modal-wrap">
-        <div class="details-modal-header">
-          <div class="modal-header-description">
-            <h1>Jairo Johan Ortiz Bustamante </h1>
-            <p>Era estudiante de derecho en el núcleo San Antonio de la Universidad Bicentenaria de Aragua.</p>
-          </div>
-          <div class="details-modal-header-photo">
-            <img src="images/photos/jairo-ortiz.png" alt="">
-            <span class="header-age">19 años</span>
-          </div>
-        </div>
-        <div class="details-modal-content">
-          <ul class="content-info">
-            <li class="content-info-data">
-              <span class="content-info-title">fecha de Nacimiento</span>
-              <p class="content-info-result">02. 09 . 1997</p>
-            </li>
-            <li class="content-info-data">
-              <span class="content-info-title">fecha del asesinato</span>
-              <p class="content-info-result">06. 04. 2017</p>
-            </li>
-            <li class="content-info-data">
-              <span class="content-info-title">Lugar del asesinato</span>
-                <p class="content-info-result">Estado Miranda</p>
-            </li>
-          </ul>
-          <div class="content-coments">
-            <h4>comentarios adicionales</h4>
-            <p>Jairo cayó herido aproximadamente a las 9:30 pm. Estaba cercano a la entrada del centro comercial de la zona, justo al lado de la panadería, ahí lo alcanzó la bala. Sus compañeros de protesta lo trasladaron de inmediato al Centro Médico Docente Los Altos, contiguo al lugar de la protesta y a pocos metros donde se desplomó el joven universitario.
-            <br>Según trascendió, Ortiz llegó sin signos vitales, pese a los intentos por reanimarlo. La bala ya había perforado el corazón. </p>
-          </div>
-          <div class="content-coments-links">
-            <h4>enlaces de informacion</h4>
-            <a href="#">El pitazo</a>
-          </div>
-          <button onClick"goBack()" class="botton-back">
-            <a href="">
-              <svg class="icon icon-back">
-                <use xlink:href="#icon-back"></use>
-              </svg> volver
-            </a>
-          <button>
-        </div>
+
       </div>
     </section>
 
