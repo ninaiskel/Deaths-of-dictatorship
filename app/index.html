@@ -8,6 +8,7 @@
     <meta name="description" content="Deads of dictatorship">
     <title>Deads of dictatorship</title>
     <link rel="stylesheet" href="/css/main.css">
+    <link href="css/nouislider.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chivo:300,400,700" rel="stylesheet">
   </head>
 
@@ -99,21 +100,49 @@
               <label for="">Estado del suceso</label>
               <div class="filter-select">
                 <select class="filter-item-select" onChange="getValue()" name="states" id="states">
+                  <option class="select-option" value="Todos">Todos</option>
                   <option class="select-option" value="Distrito Capital">Distrito Capital</option>
                   <option class="select-option" value="Estado Miranda">Estado Miranda</option>
-                  <option class="select-option" value="Estado lara">Estado Lara</option>
+                  <option class="select-option" value="Estado Táchira">Estado Táchira</option>
+                  <option class="select-option" value="Estado Zulia">Estado Zulia</option>
+                  <option class="select-option" value="Estado Lara">Estado Lara</option>
+                  <option class="select-option" value="Estado Carabobo">Estado Carabobo</option>
+                  <option class="select-option" value="Estado Bolivar">Estado Bolivar</option>
+                  <option class="select-option" value="Distrito Sucre">Distrito Sucre</option>
+                  <option class="select-option" value="Estado Barinas">Estado Barinas</option>
+                  <option class="select-option" value="Estado Anzoategui">Estado Anzoategui</option>
+                  <option class="select-option" value="Estado Anzoategui">Estado Aragua</option>
                 </select>
               </div>
             </div>
             <div class="filter-item filter-by-date">
-              <div class="time-line">
-                <span class="time-line-range"></span>
-                <ul class="time-line-months">
-                  <li class="range-month">Abril</li>
-                  <li class="range-month">Mayo</li>
-                  <li class="range-month">Junio</li>
-                  <li class="range-month">Julio</li>
-                </ul>
+              <div id="range" class="noUi-target noUi-ltr noUi-horizontal">
+                <div class="noUi-base"><div class="noUi-origin" style="left: 5.7508%;">
+                  <div class="noUi-handle noUi-handle-lower"
+                  data-handle="0"
+                  tabindex="0"
+                  role="slider"
+                  aria-orientation="horizontal"
+                  aria-valuemin="0.0"
+                  aria-valuemax="100.0"
+                  aria-valuenow="5.8"
+                  aria-valuetext="1273190400000"
+                  style="z-index: 5;">
+                  </div>
+                </div>
+                <div class="noUi-origin" style="left: 100%;">
+                  <div class="noUi-handle noUi-handle-upper"
+                  data-handle="1"
+                  tabindex="0"
+                  role="slider"
+                  aria-orientation="horizontal"
+                  aria-valuemin="5.8"
+                  aria-valuemax="100.0"
+                  aria-valuenow="100.0"
+                  aria-valuetext="1451606400000"
+                  style="z-index: 4;">
+                  </div>
+                </div>
               </div>
             </div>
           </form>
@@ -155,6 +184,7 @@
   <div id="edit"></div>
     <script type="text/javascript" src="./js/data.js"></script>
     <script type="text/javascript" src="./js/script.js"></script>
+    <script src="js/nouislider.min.js"></script>
   </body>
 
 </html>
