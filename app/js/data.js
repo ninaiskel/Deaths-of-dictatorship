@@ -447,7 +447,7 @@ const people = [
     place_death: "Estado Miranda",
     coments: "Asesinado por arma de fuego en medio de protestas en petare. no participaba en la protesta",
     links:"http://www.caraotadigital.net/sucesos/asesinaron-comerciante-informal-durante-disturbios-por-protestas-en-puente-baloa/" ,
-    image: "images/photos/no-photo.jpg"
+    image: "images/photos/carlos-salcedo.jpg"
   },
   {
     id: 31,
@@ -522,7 +522,7 @@ const people = [
     place_death: "Estado Carabobo",
     coments: "Fue asesinado en el barrio Pedro Herrera. Valencia, estado Carabobo. Cuando estaba observando un saqueo. Víctima no reconocida por el Ministerio Público.",
     links:"https://www.el-carabobeno.com/muerto-adolescente-disturbios/" ,
-    image: "images/photos/jesus-alonzo.jpg"
+    image: "images/photos/no-photo.jpg"
   },
   {
     id: 36,
@@ -567,7 +567,7 @@ const people = [
     place_death: "Estado Carabobo",
     coments: "ecibió un disparo en el rostro durante una protesta, proveniente del arma de un PoliCarabobo, cuando se encontraba cerca de una turba en el sector Pinzón Herrera de Central Tacarigua, municipio Carlos Arvelo del estado Carabobo. Su muerte no ha sido reconocida por el Ministerio Público.",
     links:"http://runrun.es/nacional/308297/ministerio-publico-aun-no-reconoce-cinco-muertes-en-carabobo-en-marco-de-protestas.html" ,
-    image: "images/photos/luis-pacheco.jpg"
+    image: "images/photos/no-photo.jpg"
   },
   {
     id: 40,
@@ -582,7 +582,322 @@ const people = [
     place_death: "Estado Carabobo",
     coments: "Fue herido el 4 de mayo durante manifestación en Carabobo",
     links:"http://www.talcualdigital.com/Nota/142306/fallecio-hecder-lugo-perez-el-joven-herido-en-la-cabeza-en-carabobo" ,
-    image: "images/photos/luis-pacheco.jpg"
+    image: "images/photos/hecder-perez.jpg"
+  },
+  {
+    id: 41,
+    name: "Miguel Joseph Medina Romero",
+    description: "Se trata de la primera muerte en Zulia como resultado de las protestas que se registran desde el 6 de abril contra el gobierno",
+    age: 20,
+    date_death: {
+      day: 05,
+      month: 05,
+      year: 2017
+    },
+    place_death: "Estado Zulia",
+    coments: "Recibió un disparo en el abdomen el pasado 3 de mayo durante una protesta en el sector Pomona, ubicado al sur de Maracaibo en el estado Zulia. Medina falleció el 5 de mayo en la Unidad de Cuidados Intensivos del Hospital General del Sur. Testigos afirman que funcionarios de la Policía Nacional se encontraban reprimiendo la manifestación cuando el joven fue atacado.",
+    links:"http://www.eluniversal.com/noticias/sucesos/fallecio-maracaibo-joven-herido-abdomen_651310" ,
+    image: "images/photos/miguel-medina.jpg"
+  },
+  {
+    id: 42,
+    name: "Anderson Enrique Dugarte",
+    description: "Trabajaba como mototaxista",
+    age: 32,
+    date_death: {
+      day: 10,
+      month: 05,
+      year: 2017
+    },
+    place_death: "Estado Mérida",
+    coments: "fue una de las personas heridas durante las manifestaciones del lunes 8 de mayo en Mérida, recibió una bala en el cráneo por la cual falleció el 10 de mayo en el Hospital Universitario de Los Andes.",
+    links:"http://www.eluniversal.com/noticias/sucesos/fallecio-maracaibo-joven-herido-abdomen_651310" ,
+    image: "images/photos/anderson-dugarte.jpg"
+  },
+  {
+    id: 43,
+    name: "Miguel Fernando Castillo Bracho",
+    description: "Era comunicador social mención audiovisual egresado de la Universidad Santa María.",
+    age: 27,
+    date_death: {
+      day: 10,
+      month: 05,
+      year: 2017
+    },
+    coments: "Fue asesinado durante una manifestación en Las Mercedes, municipio Baruta del estado Miranda.",
+    place_death: "Estado Miranda",
+    links:"http://www.caraotadigital.net/nacionales/miguel-castillo-otra-vida-apagada-por-la-represion-gubernamental-perfil/" ,
+    image: "images/photos/miguel-castillo.jpg"
+  },
+  {
+    id: 44,
+    name: "Luis José Alviárez Chacón",
+    description: "Era hijo único, bachiller, atleta en la disciplina de Ping Pong.",
+    age: 18,
+    date_death: {
+      day: 15,
+      month: 05,
+      year: 2017
+    },
+    coments: "El joven tachirense de 18 años manifestaba junto a un grupo de personas en Palmira cuando recibió un impacto de bala en el tórax disparado por un funcionario de la PNB. Fue ingresado sin signos vitales a un centro asistencial de la localidad.",
+    place_death: "Estado Táchira",
+    links:"http://cnnespanol.cnn.com/2017/05/16/muere-un-adolescente-en-las-protestas-en-palmira-venezuela/" ,
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 45,
+    name: "Diego Armando Hernández ",
+    description: "Su sitio de residencia era en el barrio Los Hornos, en Capacho Viejo, municipio aledaño a donde murió Diego Hernández",
+    age: 33,
+    date_death: {
+      day: 15,
+      month: 05,
+      year: 2017
+    },
+    coments: "Recibió un impacto de bala en el pecho el pasado 15 de mayo cuando se encontraba cerca de una manifestación en Capacho, estado Táchira. El Ministerio Público imputó a un policía de Táchira, identificado como Luis Oviedo, de su muerte.",
+    place_death: "Estado Táchira",
+    links:"https://elpitazo.com/regiones/asesinado-tachira-diego-hernandez-cuando-pasaba-una-manifestacion/" ,
+    image: "images/photos/diego-hernandez.jpg"
+  },
+  {
+    id: 46,
+    name: "Yeison Nathanael Mora Castillo",
+    description: "El joven laboraba en una ferretería.",
+    age: 17,
+    date_death: {
+      day: 16,
+      month: 05,
+      year: 2017
+    },
+    coments: "el adolescente fue asesinado producto de un disparo de arma de fuego en la cara mientras se encontraba en el “Gran Plantón” realizado el 16 de mayo en el municipio Pedraza.",
+    place_death: "Estado Barinas",
+    links:"http://runrun.es/nacional/venezuela-2/309541/fallecio-adolescente-herido-de-bala-durante-gran-planton-en-barinas.html" ,
+    image: "images/photos/yeison-castillo.jpg"
+  },
+  {
+    id: 47,
+    name: "José Francisco Guerrero ",
+    description: "Se dedicaba al trabajo de obrero, tenía seis hermanos",
+    age: 15,
+    date_death: {
+      day: 16,
+      month: 05,
+      year: 2017
+    },
+    coments: "De acuerdo con la información preliminar, aproximadamente a las 4:00 pm el joven de 15 años realizaba compras en un abasto ubicado en el referido sector, cerca de donde se realizaba una manifestación, cuando recibió un disparo a nivel umbilical.",
+    place_death: "Estado Táchira",
+    links:"http://www.panorama.com.ve/politicayeconomia/Fallecio-Jose-Francisco-Guerrero-de-15-anos-por-un-impacto-de-bala-en-Sabaneta-estado-Tachira-20170517-0081.html" ,
+    image: "images/photos/jose-guerrero.jpg"
+  },
+  {
+    id: 48,
+    name: "Diego Fernando Arellano",
+    description: "Era biologo",
+    age: 31,
+    date_death: {
+      day: 16,
+      month: 05,
+      year: 2017
+    },
+    coments: "Recibió un disparo en el tórax con un arma de fuego cuando se encontraba manifestando el pasado 16 de mayo en la avenida Perimetral de San Antonio de los Altos. Testigos aseguraron que un funcionario de la GNB hirió a Arellano cuando se encontraba reprimiendo la manifestación. ",
+    place_death: "Estado Miranda",
+    links:"http://runrun.es/nacional/venezuela-2/309611/muere-herido-de-bala-en-san-antonio-de-los-altos-durante-protesta-16may.html" ,
+    image: "images/photos/diego-arellano.jpg"
+  },
+  {
+    id: 49,
+    name: "Manuel Felipe Castellanos",
+    description: "",
+    age: 46,
+    date_death: {
+      day: 17,
+      month: 05,
+      year: 2017
+    },
+    coments: "El hombre falleció este 17 de mayo producto de un disparo en el cuello mientras había un enfrentamiento entre manifestantes y funcionarios de las Fuerzas Armadas en el sector Tucapé, en el municipio Cárdenas del estado Táchira. La víctima había salido para comprar pañales para su hijo. El Ministerio Público imputó a tres GNB por el asesinato.",
+    place_death: "Estado Táchira",
+    links:"http://runrun.es/nacional/309820/muere-otro-tachirense-en-manifestacion-de-tucape.html" ,
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 50,
+    name: "Paul Moreno",
+    description: "Estudiante de Medicina y miembro de la Cruz Verde",
+    age: 24,
+    date_death: {
+      day: 18,
+      month: 05,
+      year: 2017
+    },
+    coments: "Moreno fue arrollado cuando se encontraba auxiliando a varios manifestantes afectados por los gases lacrimógenos. El responsable aún no ha sido identificado. ",
+    place_death: "Estado Zulia",
+    links:"http://www.el-nacional.com/noticias/oposicion/quien-era-paul-moreno-miembro-cruz-verde-asesinado-protesta_183016" ,
+    image: "images/photos/paul-moreno.jpg"
+  },
+  {
+    id: 51,
+    name: "Daniel Rodríguez",
+    description: "Estudiante de la Universidad Católica del Táchira",
+    age: 18,
+    date_death: {
+      day: 19,
+      month: 05,
+      year: 2017
+    },
+    coments: "Falecio en horas luego de recibir un disparo en la cabeza por colectivos armados en Córdoba, estado Táchira.",
+    place_death: "Estado Táchira",
+    links:"http://www.el-nacional.com/noticias/oposicion/quien-era-paul-moreno-miembro-cruz-verde-asesinado-protesta_183016" ,
+    image: "images/photos/daniel-rodriguez.jpg"
+  },
+  {
+    id: 52,
+    name: "Jorge Escandón",
+    description: "Funcionario de la policía de Carabobo",
+    age: 37,
+    date_death: {
+      day: 19,
+      month: 05,
+      year: 2017
+    },
+    coments: "Recibió un impacto de bala en la cabeza durante una manifestación realizada el pasado 15 de mayo en la urbanización Palma Real de municipio Naguanagua. El hombre falleció este viernes 19 de mayo.",
+    place_death: "Estado Carabobo",
+    links:"http://runrun.es/nacional/310140/muere-el-policarabobo-herido-en-manifestacion-del-15may.html" ,
+    image: "images/photos/jorge-escandon.jpg"
+  },
+  {
+    id: 53,
+    name: "Edy Alejandro Terán Aguilar",
+    description: "estudiante del quinto semestre de administración de recursos humanos en la Universidad Simón Rodríguez",
+    age: 23,
+    date_death: {
+      day: 20,
+      month: 05,
+      year: 2017
+    },
+    coments: "Fue asesinado de un impacto de bala en el pecho disparado por un grupo de presuntos colectivos que abrieron fuego contra una protesta en el sector El Murachí en Valera.",
+    place_death: "Estado Trujillo",
+    links:"http://www.analitica.com/sucesos/victima-48-de-protestas-era-universitario-y-trabaja-en-mercado-para-costear-sus-estudios/" ,
+    image: "images/photos/edy-teran.jpg"
+  },
+  {
+    id: 54,
+    name: "Yorman Alí Bervecia Cabeza",
+    description: "Había culminado sus estudios de Bachillerato, participaba en las manifestaciones porque quería un mejor futuro.",
+    age: 19,
+    date_death: {
+      day: 22,
+      month: 05,
+      year: 2017
+    },
+    coments: "Participaba en una manifestación en las adyacencias de la urbanización José Antonio Páez cuando recibió un disparo en el tórax. De inmediato, el joven fue trasladado al ambulatorio Los Pozones, donde ingresó sin signos vitales.",
+    place_death: "Estado Barinas",
+    links:"http://www.eluniversal.com/noticias/sucesos/mueren-dos-personas-durante-dia-protesta-barinas_653806" ,
+    image: "images/photos/yorman-bervecia.jpg"
+  },
+  {
+    id: 55,
+    name: "Elvis Adonis Montilla Pérez ",
+    description: "Estudiaba en la Universidad Francisco de Miranda de Coro.",
+    age: 22,
+    date_death: {
+      day: 22,
+      month: 05,
+      year: 2017
+    },
+    coments: "se encontraba en las adyacencias de la urbanización Palma de Oro, cuando fue herido con un arma de fuego en el pecho. Familiares y testigos indican que un encapuchado habría disparado al joven.",
+    place_death: "Estado Barinas",
+    links:"http://www.talcualdigital.com/Nota/142943/confirman-tercer-muerto-por-las-protestas-en-el-estado-barinas" ,
+    image: "images/photos/elvis-montilla.jpg"
+  },
+  {
+    id: 56,
+    name: "Alfredo José Briceño Carrizales",
+    description: "Dejó un hijo de tres años",
+    age: 25,
+    date_death: {
+      day: 22,
+      month: 05,
+      year: 2017
+    },
+    coments: " se encontraba durante una manifestación que se efectuaba frente a su domicilio en la calle Cedeño delestado Barinas, momento en el cual fue impactado  por un proyectil disparado por arma de fuego, causándole una herida en elintercostal izquierdo.",
+    place_death: "Estado Barinas",
+    links:"http://www.talcualdigital.com/Nota/142943/confirman-tercer-muerto-por-las-protestas-en-el-estado-barinas" ,
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 57,
+    name: "Miguel Ángel Bravo Ramírez",
+    description: "Era obrero",
+    age: 25,
+    date_death: {
+      day: 22,
+      month: 05,
+      year: 2017
+    },
+    coments: "Se encontraba durante una manifestación en la Plaza Bolívar de Socopó, parroquia Ticoporo, municipio Antonio José de Sucre del estado Barinas, cuando recibió varios impactos de bala. Falleció al ser trasladado de la clínica San José al Hospital Dr. Luis Razetti.",
+    place_death: "Estado Barinas",
+    links:"https://www.derechos.org.ve/web/wp-content/uploads/05-06-2017.pdf" ,
+    image: "images/photos/miguel-bravo.jpg"
+  },
+  {
+    id: 59,
+    name: "Ynigo Jesús Leiva",
+    description: "Dueño de un abasto en la calle Apure del Barrio San Andrés de El Valle.",
+    age: 66,
+    date_death: {
+      day: 22,
+      month: 05,
+      year: 2017
+    },
+    coments: "Murió la noche del lunes 22 en El Valle durante la manifestación reprimida por efectivos de la GNB y PNB. Leiva, dueño de un abasto, murió producto de un impacto de proyectil que lo alcanzó cuando en el sector llegaron funcionarios de los cuerpos de seguridad en una tanqueta y ocurrió un tiroteo.",
+    place_death: "Distrito Capital",
+    links:"http://www.caraotadigital.net/sucesos/comerciante-asesinado-en-el-valle-habia-cerrado-su-negocio-cuando-fue-asesinado/" ,
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 60,
+    name: "Freiber Pérez Vielma",
+    description: "",
+    age: 21,
+    date_death: {
+      day: 23,
+      month: 05,
+      year: 2017
+    },
+    coments: "Falleció la mañana del 23 de mayo, luego de resultar herido por un disparo en la espalda la noche del lunes 22 durante una manifestación en el sector El Corozo, parroquia Manuel Palacio Fajardo de Barinas.",
+    place_death: "Estado Barinas",
+    links:"http://runrun.es/nacional/310496/muere-otro-joven-en-barinas-con-disparo-en-la-espalda.html" ,
+    image: "images/photos/freiber-perez.jpg"
+  },
+  {
+    id: 61,
+    name: "Erick Antonio Molina Contreras",
+    description: "Obrero",
+    age: 35,
+    date_death: {
+      day: 23,
+      month: 05,
+      year: 2017
+    },
+    coments: "Falleció al recibir varios disparos por arma de fuego el  23 de mayo cuando protestaba en la urbanización Los Próceres, en el estado Barinas. Luego del suceso Molina fue trasladado al Hospital Doctor Luis Razetti, donde falleció.",
+    place_death: "Estado Barinas",
+    links:"http://runrun.es/nacional/310694/aumenta-a-7-numero-de-asesinados-durante-las-protestas-de-barinas.html" ,
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 62,
+    name: "Juan Antonio Sánchez Suárez",
+    description: "",
+    age: 21,
+    date_death: {
+      day: 23,
+      month: 05,
+      year: 2017
+    },
+    coments: "se encontraba en la urbanización José Antonio Páez de Barinas, donde se llevaba a cabo una manifestación, cuando recibió dos disparos de arma de fuego a nivel de la región pectoral y otro en la región intercostal. ",
+    place_death: "Estado Barinas",
+    links:"http://runrun.es/nacional/310694/aumenta-a-7-numero-de-asesinados-durante-las-protestas-de-barinas.html" ,
+    image: "images/photos/no-photo.jpg"
   }
 
 ];
