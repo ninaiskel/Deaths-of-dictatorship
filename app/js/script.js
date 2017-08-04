@@ -22,35 +22,36 @@ const HTMLGenerator = (person) => {
 
 // filter by age
 function filterByAge(isOldMan) {
-  let filterPeople
-  filterPeople = people.filter( x => {
+  let peopleByAge
+  peopleByAge = people.filter( x => {
     if ( isOldMan ) {
       if (18 <= x.age) return x
     } else {
       if (18 >= x.age) return x
     }
   })
-  return filterByAge
-}
-//filter by place_death
-const getValue = () => {
-  const state = document.getElementById('states').value
-  const newPeople = people.filter( x => {
-    if (state === x.place_death) return x
-  })
+
   let cardsPeople = ''
-  newPeople.map(x => {
+  peopleByAge.map(x => {
     cardsPeople = cardsPeople + HTMLGenerator(x)
   })
   document.getElementById('cards-people').innerHTML = cardsPeople
-  return newPeople
+  return peopleByAge
 }
 
-
-
-
-
-
+//filter by place_death
+const getValue = () => {
+  const state = document.getElementById('states').value
+  const peopleByState = people.filter( x => {
+    if (state === x.place_death) return x
+  })
+  let cardsPeople = ''
+  peopleByState.map(x => {
+    cardsPeople = cardsPeople + HTMLGenerator(x)
+  })
+  document.getElementById('cards-people').innerHTML = cardsPeople
+  return peopleByState
+}
 
 //modal
 const modalDetail = document.getElementById('modal');
@@ -94,25 +95,6 @@ function goBack() {
   return goBack
 };
 
-// cards
-// const cardsPeople = document.getElementById('cards-people');
-// let content = ''
-// people.map( x => {
-//   let cardContent = '<li class="card">';
-//   cardContent = cardContent + '<button class="card-btn" onClick="showDetails(' + x.id + ')">' + '</button>';
-//   cardContent = cardContent + '<div class="card-pic">' +
-//                 '<img src="' + x.image  + '"' + 'alt="">' +
-//                 '</div>' + '<div class="card-content">' +
-//                 '<h2 class="card-name">' + x.name + '</h2>' + '<div class="card-date-death">' +
-//                 '<svg class="icon icon-date-death"><use xlink:href="#icon-death"></use>' +
-//                 '</svg>' + '<p class="date-death">' + x.date_death.day + ' . ' +
-//                 x.date_death.month + ' . ' + x.date_death.year +'</p>' + '</div>' + '</div>';
-//   content = content + cardContent + '</li>'
-// })
-//
-// cardsPeople.innerHTML = content;
-
-//connect data
 //open filtered
 const filtered = document.getElementById('filtered');
 const closeFilter = document.getElementById('close-filter');
@@ -126,7 +108,7 @@ function openFilter() {
 
 function closeFiltered() {
   filtered.style.display = 'none';
-  closeFilter.style.display = 'block';
+  closeFilter.style.display = 'none';
 
   return closeFiltered
 };
