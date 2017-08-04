@@ -1,4 +1,24 @@
-const modalDetail = document.getElementById('modal');
+//cards
+const HTMLGenerator = (person) => {
+  let content = ''
+  let cardContent = '<li class="card">' + '<button class="card-btn" onClick="showDetails(' + person.id + ')">' + '</button>';
+  cardContent = cardContent + '<div class="card-pic">' +
+                '<img src="' + person.image  + '"' + 'alt="">' +
+                '</div>' + '<div class="card-content">' +
+                '<h2 class="card-name">' + person.name + '</h2>' + '<div class="card-date-death">' +
+                '<svg class="icon icon-date-death"><use xlink:href="#icon-death"></use>' +
+                '</svg>' + '<p class="date-death">' + person.date_death.day + ' . ' +
+                person.date_death.month + ' . ' + person.date_death.year +'</p>' + '</div>' + '</div>';
+  content = content + cardContent + '</li>'
+  return content
+  }
+  let cardsPeople = ''
+  people.map(x => {
+    cardsPeople = cardsPeople + HTMLGenerator(x)
+  })
+
+  const innerHtml = document.getElementById('cards-people')
+  innerHtml.innerHTML = cardsPeople
 
 // filter by age
 function filterByAge(isOldMan) {
@@ -10,22 +30,36 @@ function filterByAge(isOldMan) {
       if (18 >= x.age) return x
     }
   })
-  console.log(filterPeople)
   return filterByAge
 }
-// //filter by place_death
-// function filterByPlace(){
-//
-//
-//
-// }
+//filter by place_death
+const getValue = () => {
+  const state = document.getElementById('states').value
+  const newPeople = people.filter( x => {
+    if (state === x.place_death) return x
+  })
+  let cardsPeople = ''
+  newPeople.map(x => {
+    cardsPeople = cardsPeople + HTMLGenerator(x)
+  })
+  document.getElementById('cards-people').innerHTML = cardsPeople
+  return newPeople
+}
 
+
+
+
+
+
+
+//modal
+const modalDetail = document.getElementById('modal');
 function showDetails(id) {
   const filterPeople =  people.filter( x => {
     if (id == x.id) return x
   })
   const detailPeople = document.getElementById('modal-inside');
-  let modalContent
+  let modalContent = ''
 
   filterPeople.map( x => {
     let peopleContent = '<div class="details-modal-header">' +
@@ -61,22 +95,22 @@ function goBack() {
 };
 
 // cards
-const cardsPeople = document.getElementById('cards-people');
-let content = ''
-people.map( x => {
-  let cardContent = '<li class="card">';
-  cardContent = cardContent + '<button class="card-btn" onClick="showDetails(' + x.id + ')">' + '</button>';
-  cardContent = cardContent + '<div class="card-pic">' +
-                '<img src="' + x.image  + '"' + 'alt="">' +
-                '</div>' + '<div class="card-content">' +
-                '<h2 class="card-name">' + x.name + '</h2>' + '<div class="card-date-death">' +
-                '<svg class="icon icon-date-death"><use xlink:href="#icon-death"></use>' +
-                '</svg>' + '<p class="date-death">' + x.date_death.day + ' . ' +
-                x.date_death.month + ' . ' + x.date_death.year +'</p>' + '</div>' + '</div>';
-  content = content + cardContent + '</li>'
-})
-console.log(content)
-cardsPeople.innerHTML = content;
+// const cardsPeople = document.getElementById('cards-people');
+// let content = ''
+// people.map( x => {
+//   let cardContent = '<li class="card">';
+//   cardContent = cardContent + '<button class="card-btn" onClick="showDetails(' + x.id + ')">' + '</button>';
+//   cardContent = cardContent + '<div class="card-pic">' +
+//                 '<img src="' + x.image  + '"' + 'alt="">' +
+//                 '</div>' + '<div class="card-content">' +
+//                 '<h2 class="card-name">' + x.name + '</h2>' + '<div class="card-date-death">' +
+//                 '<svg class="icon icon-date-death"><use xlink:href="#icon-death"></use>' +
+//                 '</svg>' + '<p class="date-death">' + x.date_death.day + ' . ' +
+//                 x.date_death.month + ' . ' + x.date_death.year +'</p>' + '</div>' + '</div>';
+//   content = content + cardContent + '</li>'
+// })
+//
+// cardsPeople.innerHTML = content;
 
 //connect data
 //open filtered
