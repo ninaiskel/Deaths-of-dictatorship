@@ -6,6 +6,7 @@
   height: 500px;
   justify-content: space-between;
   padding: 40px;
+  position: relative;
 
   @include breakpoint('medium'){
     height: 400px;
@@ -13,6 +14,20 @@
 
   @include breakpoint('small'){
     height: auto;
+    padding: 20px;
+  }
+
+  img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: 60%;
+    z-index: 0;
+
+    @include breakpoint('small'){
+      opacity: .8;
+    }
   }
 
   &-head {
@@ -32,6 +47,8 @@
 
   &-content {
     width: 80%;
+    position: relative;
+    z-index: 1;
 
     @include breakpoint('xlarge'){
       width: 78%;

@@ -105,10 +105,12 @@ function openFilter() {
 
   return openFilter
 }
-
 function closeFiltered() {
   filtered.style.display = 'none';
   closeFilter.style.display = 'none';
 
   return closeFiltered
 };
+
+
+//
