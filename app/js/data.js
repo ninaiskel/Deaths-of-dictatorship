@@ -894,9 +894,429 @@ const people = [
       month: 05,
       year: 2017
     },
-    coments: "se encontraba en la urbanización José Antonio Páez de Barinas, donde se llevaba a cabo una manifestación, cuando recibió dos disparos de arma de fuego a nivel de la región pectoral y otro en la región intercostal. ",
+    coments: "Se encontraba en la urbanización José Antonio Páez de Barinas, donde se llevaba a cabo una manifestación, cuando recibió dos disparos de arma de fuego a nivel de la región pectoral y otro en la región intercostal. ",
     place_death: "Estado Barinas",
     links:"http://runrun.es/nacional/310694/aumenta-a-7-numero-de-asesinados-durante-las-protestas-de-barinas.html" ,
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 63,
+    name: "Adrián José Duque Bravo",
+    description: "Contador público",
+    age: 24,
+    date_death: {
+      day: 24,
+      month: 05,
+      year: 2017
+    },
+    coments: "Duque se encontraba en una manifestación que se desarrollaba en las Torres del Saladillo, cuando recibió un impacto en la región abdominal izquierda, por lo que fue trasladado al Hospital Chiquinquirá, donde posteriormente falleció.",
+    place_death: "Estado Zulia",
+    links:"http://www.panorama.com.ve/sucesos/Murio-Adrian-Duque-en-manifestaciones-en-Torres-del-Saladillo-Maracaibo-20170524-0116.html" ,
+    image: "images/photos/adrian-duque.jpg"
+  },
+  {
+    id: 64,
+    name: "Augusto Sergio Pugas Velásquez",
+    description: "Estudiante de enfermeria",
+    age: 22,
+    date_death: {
+      day: 24,
+      month: 05,
+      year: 2017
+    },
+    coments: "Murió tras resultar herido durante una manifestación en el decanato de la Universidad de Oriente en Ciudad Bolívar. Según testigos, efectivos de la Policía del Estado Bolívar",
+    place_death: "Estado Bolívar",
+    links:"http://www.talcualdigital.com/Nota/143033/murio-estudiante-augusto-puga-herido-de-bala-en-ciudad-bolivar" ,
+    image: "images/photos/augusto-pugas.jpg"
+  },
+  {
+    id: 65,
+    name: "Manuel Sosa Ponte",
+    description: "",
+    age: 33,
+    date_death: {
+      day: 26,
+      month: 05,
+      year: 2017
+    },
+    coments: "La víctima recibió un impacto de bala en la región infraclavicular del tórax durante una manifestación que era reprimida por funcionarios de la GNB realizada este 25 de mayo en Valle Hondo, estado Lara. Sosa falleció este viernes 26 de mayo en horas de la madrugada.",
+    place_death: "Estado Lara",
+    links:"http://www.caraotadigital.net/carrusel/murio-joven-que-recibio-disparo-en-la-cabeza-durante-protestas-en-lara/" ,
+    image: "images/photos/manuel-sosa.jpg"
+  },
+  {
+    id: 66,
+    name: "Danny José Subero ",
+    description: "Teniente retirado de la Guardia Nacional Bolivariana",
+    age: 34,
+    date_death: {
+      day: 27,
+      month: 05,
+      year: 2017
+    },
+    coments: "Murió luego de ser golpeado (linchado) por un grupo de personas en el sector Valle Hondo, en la parroquia Cabudare",
+    place_death: "Estado Lara",
+    links:"http://runrun.es/nacional/312104/imputaran-a-seis-personas-por-muerte-de-gnb-en-lara.html" ,
+    image: "images/photos/dany-subero.jpg"
+  },
+  {
+    id: 67,
+    name: "Cesar David Pereira Villegas",
+    description: "Estudiaba publicidad y mercadeo en el IUTIRLA, tambien era dirigente juvenil de Voluntad Popular",
+    age: 21,
+    date_death: {
+      day: 27,
+      month: 05,
+      year: 2017
+    },
+    coments: "La víctima recibió el impacto de una metra durante una manifestación que se realizó en el sector Peñón del Faro de Lecherías, en el estado Anzoátegui, el pasado 27 de mayo. El dirigente juvenil de Voluntad Popular murió el 28 de mayo producto de sus heridas.",
+    place_death: "Estado Anzoategui",
+    links:"http://www.eluniversal.com/noticias/sucesos/fallecio-cesar-pereira-activista-herido-durante-protesta_654590" ,
+    image: "images/photos/cesar-pereira.jpg"
+  },
+  {
+    id: 68,
+    name: "Nelson Antonio Moncada Gómez",
+    description: "Era Juez de la Sala 1 de la Corte de Apelaciones del TSJ en el Circuito Judicial Penal del Área Metropolitana de Caracas",
+    age: 37,
+    date_death: {
+      day: 28,
+      month: 05,
+      year: 2017
+    },
+    coments: "Asesinado la noche del miércoles en El Paraíso cuando fue interceptado por sujetos que se encontraban en una barricada, quienes lo hirieron cuando intentaba huir. Se maneja una hipótesis de sicariato.",
+    place_death: "Distrito Capital",
+    links:"http://runrun.es/nacional/311936/asesinan-en-el-paraiso-a-juez-que-participo-en-caso-de-bassil-da-costa.html" ,
+    image: "images/photos/nelson-moncada.jpg"
+  },
+  {
+    id: 69,
+    name: "María Estefanía Rodríguez",
+    description: "Trabajaba como camarera en un hotel",
+    age: 46,
+    date_death: {
+      day: 01,
+      month: 06,
+      year: 2017
+    },
+    coments: "en horas de la tarde la víctima transitaba por el sector, e intentaba atravesar la protesta, cuando se formó un tiroteo y recibió un disparo en la región intercostal derecha. De inmediato, fue trasladada al Hospital Antonio María Pineda, donde ingresó sin signos vitales.",
+    place_death: "Estado Lara",
+    links:"http://www.elimpulso.com/featured/dama-trataba-pasar-una-protesta-murio-al-recibir-disparo-barquisimeto-01jun" ,
+    image: "images/photos/maria-rodriguez.jpg"
+  },
+  {
+    id: 70,
+    name: "Luis Miguel Gutiérrez Molina",
+    description: "Trabajaba como caletero descargando materiales de construcción",
+    age: 20,
+    date_death: {
+      day: 02,
+      month: 06,
+      year: 2017
+    },
+    coments: "Resultó herido durante una manifestación el 17 de mayo en el municipio Tovar.",
+    place_death: "Estado Mérida",
+    links:"http://www.eluniversal.com/noticias/sucesos/luis-gutierrez-convirtio-asesinado-las-protestas_655462",
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 71,
+    name: "Yoiner Javier Peña Hernández",
+    description: "Joven de 28 años de edad con discapacidad, que a pesar de su condición era un individuo activo",
+    age: 28,
+    date_death: {
+      day: 03,
+      month: 06,
+      year: 2017
+    },
+    coments: "El hombre resultó herido por un arma de fuego durante una manifestación el pasado 11 de abril en la avenida Florencio Jiménez en Barquisimeto, estado Lara. Peña falleció la madrugada de este sábado 3 de junio producto de sus heridas. Se presume que el hombre fue atacado por colectivos.",
+    place_death: "Estado Lara",
+    links:"http://runrun.es/nacional/312215/fallece-yoiner-pena-joven-herido-en-protestas-de-abril-en-lara.html",
+    image: "images/photos/yoiner-peña.jpg"
+  },
+  {
+    id: 72,
+    name: "Orlando Figuera",
+    description: "Se dedicaba al oficio de cuidar y aparcar vehículos en un supermercado en Las Mercedes",
+    age: 21,
+    date_death: {
+      day: 04,
+      month: 06,
+      year: 2017
+    },
+    coments: "la víctima falleció luego de ser incinerado y apuñalado durante una protesta en Altamira, Caracas, el pasado 20 de mayo. Figuera murió este domingo 4 de junio en horas de la madrugada producto de sus heridas. Hasta el momento se desconocen detalles del victimario.",
+    place_death: "Estado Miranda",
+    links:"http://www.bbc.com/mundo/noticias-america-latina-40007635",
+    image: "images/photos/orlando-figuera.jpg"
+  },
+  {
+    id: 73,
+    name: "Edwar José Paredes",
+    description: "Empleado del CDI",
+    age: 25,
+    date_death: {
+      day: 06,
+      month: 06,
+      year: 2017
+    },
+    coments: "El hombre recibió un disparo en el tórax durante una protesta en la ciudad Ejido del municipio Campo Elías en el estado Mérida. El hecho ocurrió este 6 de junio. Paredes fue trasladado al Hospital Universitario de los Andes (HULA) y falleció luego de ser operado.",
+    place_death: "Estado Mérida",
+    links:"https://elpitazo.com/ultimas-noticias/confirman-muerte-joven-merida-tras-recibir-impacto-bala/",
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 74,
+    name: "Neomar Lander Armas",
+    description: "“Yo tengo 17 años, y no estoy estudiando porque me quiero ir del país a buscar un mejor país, pero sinceramente no me quiero ir de Venezuela, este es mi país yo nací aquí y estoy luchando por él”, declaró en una oportunidad Neomar en un vídeo que también ha circulado por las redes sociales",
+    age: 17,
+    date_death: {
+      day: 07,
+      month: 06,
+      year: 2017
+    },
+    coments: "Lander se encontraba en Las Mercedes protestando en compañía de su madre y el grupo de manifestantes de la “La Resistencia”. Después de las 3:00 pm, el joven se fue con varias personas a la avenida Libertador de Chacao. Allí, él y los “escuderos” hacían frente a funcionarios de PNB. Al parecer Lo mató el impacto de un objeto contundente o proyectil disparado a corta distancia por uno de los policías ",
+    place_death: "Disrito Capital",
+    links:"http://runrun.es/rr-es-plus/313986/infografia-y-video-a-neomar-lander-lo-habria-matado-una-bomba-disparada-por-la-pnb.html",
+    image: "images/photos/neomar-lander.jpg"
+  },
+  {
+    id: 75,
+    name: "Sócrates Salgado",
+    description: "Había sido operado del corazón hace 6 meses. Vivía en El Teleférico Macuto",
+    age: 49,
+    date_death: {
+      day: 12,
+      month: 06,
+      year: 2017
+    },
+    coments: "Murió a consecuencia de gases lacrimógenos durante una protesta en La Guaira, estado Vargas.",
+    place_death: "Estado Vargas",
+    links:"http://elestimulo.com/blog/socrates-salgado-murio-por-las-lacrimogenas-lanzadas-en-protesta-por-hambre/",
+    image: "images/photos/socrates-salgado.jpg"
+  },
+  {
+    id: 76,
+    name: "Douglas Acevedo Sánchez",
+    description: "Supervisor Jefe de la Policía del estado Mérida",
+    age: 41,
+    date_death: {
+      day: 13,
+      month: 06,
+      year: 2017
+    },
+    coments: "Junto con un grupo de funcionarios de la policía, se disponían a restablecer el orden público en una manifestación suscitada en la avenida Urdaneta, cuando se presentó una situación irregular tras la cual resultó herido Acevedo de un impacto de bala en la región clavicular izquierda, provocada por un arma de fuego. Otras tres personas resultaron heridas igualmente.",
+    place_death: "Estado Mérida",
+    links:"http://runrun.es/nacional/313490/muere-supervisor-jefe-de-policia-estatal-durante-manifestacion-en-merida.html",
+    image: "images/photos/douglas-acevedo.jpg"
+  },
+  {
+    id: 77,
+    name: "José Amador Lorenzo González",
+    description: "",
+    age: 50,
+    date_death: {
+      day: 14,
+      month: 06,
+      year: 2017
+    },
+    coments: "Falleció luego de un choque en motocicleta, al evadir una barricada en la Autopista Prados del Este",
+    place_death: "Estado Miranda",
+    links:"http://efectococuyo.com/principales/dos-motorizados-mueren-al-colisionar-en-autopista-de-caracas-durante-protesta",
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 78,
+    name: "Luis Alberto Machado Valdez",
+    description: "",
+    age: 27,
+    date_death: {
+      day: 14,
+      month: 06,
+      year: 2017
+    },
+    coments: "Falleció luego de un choque en motocicleta, al evadir una barricada en la Autopista Prados del Este",
+    place_death: "Estado Miranda",
+    links:"http://efectococuyo.com/principales/dos-motorizados-mueren-al-colisionar-en-autopista-de-caracas-durante-protesta",
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 79,
+    name: "Luis Enrique Vera Sulbarán",
+    description: "Estudiante de administración",
+    age: 20,
+    date_death: {
+      day: 15,
+      month: 06,
+      year: 2017
+    },
+    coments: "Murió arrollado durante una manifestación en frente de la Universidad Rafael Belloso Chacín.",
+    place_death: "Estado Zulia",
+    links:"http://runrun.es/nacional/313747/estudiante-murio-tras-ser-arrollado-por-camion-en-el-marco-de-una-protesta-en-maracaibo.html",
+    image: "images/photos/luis-vera.jpg"
+  },
+  {
+    id: 80,
+    name: "José Gregorio Pérez Pérez",
+    description: "Estudiante universitario",
+    age: 21,
+    date_death: {
+      day: 15,
+      month: 06,
+      year: 2017
+    },
+    coments: "La víctima se encontraba en una manifestación que se llevaba a cabo en el sector antes indicado, cuando se suscitó una situación irregular en la que Pérez Caicedo recibió un disparo en el rostro.",
+    place_death: "Estado Táchira",
+    links:"http://runrun.es/nacional/313806/asesinan-a-estudiante-de-disparo-en-el-rostro-cuando-protestaba-en-tachira.html",
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 81,
+    name: "Nelson Daniel Arevalo Avendaño",
+    description: "Era conocido como Dominic",
+    age: 21,
+    date_death: {
+      day: 16,
+      month: 06,
+      year: 2017
+    },
+    coments: "Es la Décima víctima en Lara caído durante manifestaciones.",
+    place_death: "Estado Lara",
+    links:"http://www.elimpulso.com/featured/muere-joven-herido-enfrentamiento-las-trinitarias-16jun",
+    image: "images/photos/nelson-arevalo.jpg"
+  },
+  {
+    id: 82,
+    name: "Fabian Urbina",
+    description: "Estudiaba tercer semestre de Mercadeo y Publicidad.",
+    age: 17,
+    date_death: {
+      day: 19,
+      month: 06,
+      year: 2017
+    },
+    coments: "Resultó herido mientras funcionarios de la GNB y PNB reprimían la movilización opositora que tenía como destino el CNE en el Distribuidor Altamira. Recibió un impacto de bala en el tórax derecho, cerca de la orquilla esternal. Murió en la Clínica Ávila.",
+    place_death: "Estado Miranda",
+    links:"http://www.el-nacional.com/noticias/protestas/fabian-urbina-tambien-fue-herido-dias-atras-durante-represion-policial_188565",
+    image: "images/photos/fabian-urbina.jpg"
+  },
+  {
+    id: 83,
+    name: "David José Vallenilla Luis",
+    description: "TSU en enfermería",
+    age: 22,
+    date_death: {
+      day: 22,
+      month: 06,
+      year: 2017
+    },
+    coments: "Se encontraba manifestando en La Carlota cuando un efectivo de la Policía Aérea que resguardaba la base militar le disparó a quemarropa.",
+    place_death: "Estado Miranda",
+    links:"http://www.caraotadigital.net/nacionales/gnb-disparo-quemarropa-contra-david-vallenilla-durante-represion-fotos-y-videos/",
+    image: "images/photos/david-vallenilla.jpg"
+  },
+  {
+    id: 84,
+    name: "Lendy Guanipa Millán",
+    description: "Lendy y su esposa vivían en situación de calle, debajo de un puente, a pocos metros de la redoma de Petare.",
+    age: 27,
+    date_death: {
+      day: 23,
+      month: 06,
+      year: 2017
+    },
+    coments: "Mientras buscaba algo de comida entre los promontorios de desechos del Puente 5 de Julio, en Petare, Lendy José Guanipa recibió un tiro en un brazo que lo atravesó por un costado",
+    place_death: "Estado Miranda",
+    links:"http://runrun.es/nacional/315732/monitordevictimas-mataron-a-hombre-que-buscaba-comida-en-la-basura-cuando-reprimian-manifestacion-en-petare.html",
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 85,
+    name: "Ronny Alberto Parra Araujo",
+    description: "Sargento primero de la Guardia Nacional Bolivariana",
+    age: 27,
+    date_death: {
+      day: 27,
+      month: 06,
+      year: 2017
+    },
+    coments: "El militar resultó herido en horas de la madrugada mientras intentaba controlar una situación irregular suscitada en el sector El Castaño.",
+    place_death: "Estado Aragua",
+    links:"http://runrun.es/nacional/315245/fiscalia-investiga-muerte-de-gnb-ocurrida-en-maracay-este-martes.html",
+    image: "images/photos/ronny-parra.jpg"
+  },
+  {
+    id: 86,
+    name: "Jhonatan José Zavatti Serrano",
+    description: "",
+    age: 25,
+    date_death: {
+      day: 27,
+      month: 06,
+      year: 2017
+    },
+    coments: "Resultó herido con arma de fuego en la cabeza el lunes 26 de junio cuando caminaba por la calle principal del barrio 5 de Julio de la parroquia Petare, en el municipio Sucre del estado Miranda, donde se desarrollaba una manifestación en horas de la noche.",
+    place_death: "Estado Miranda",
+    links:"http://www.eluniversal.com/noticias/sucesos/murio-joven-que-recibio-tiro-cabeza-durante-protesta-petare_659049",
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 87,
+    name: "Javier Alexander Toro Trejo",
+    description: "Era Comerciante",
+    age: 34,
+    date_death: {
+      day: 27,
+      month: 06,
+      year: 2017
+    },
+    coments: "durante la noche del 27 de junio Toro se encontraba en una manifestación con un grupo de personas que pretendía ingresar indebidamente a locales comerciales del sector La Pica del municipio Libertador de Aragua. Oficiales de la policía regional intentaban dispersarlos con el uso de bombas lacrimógenas cuando sujetos desconocidos dispararon al grupo e hirieron al hombre.",
+    place_death: "Estado Aragua",
+    links:"https://www.elperiodiquito.com/noticias/67452/Asesinaron-a-vendedor-de-donas",
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 88,
+    name: "Isael Jesús Macadán Aquino",
+    description: "Estudiante",
+    age: 18,
+    date_death: {
+      day: 28,
+      month: 06,
+      year: 2017
+    },
+    coments: "Murió luego de recibir dos impactos de bala, uno en el brazo derecho y otro en la rodilla, mientras se llevaban a cabo protestas y saqueo.",
+    place_death: "Estado Anzoategui",
+    links:"http://www.elimpulso.com/noticias/nacionales/confirman-muerte-de-isael-jesus-macadan-durante-disturbios-en-barcelona-28jun",
+    image: "images/photos/isael-macadan.jpg"
+  },
+  {
+    id: 89,
+    name: "Robeto Enrique Durán Ramírez",
+    description: "Era vendedor. Fue camarógrafo en el canal Somos TV y dejó dos hijos.",
+    age: 26,
+    date_death: {
+      day: 28,
+      month: 06,
+      year: 2017
+    },
+    coments: "Participaba en un “plantón” en la urbanización Terepaima, urbanización Sucre de Barquisimeto, estado Lara, cuando cayó malherido por un proyectil en la cabeza.",
+    place_death: "Estado Lara",
+    links:"http://runrun.es/nacional/315492/asesinan-de-dos-disparos-en-la-cabeza-a-joven-de-20-anos-en-barquisimeto.html",
+    image: "images/photos/roberto-duran.jpg"
+  },
+  {
+    id: 90,
+    name: "Luiyin Alfonso Paz Borjas",
+    description: "Paz deja una hija de tres años y vivía en el barrio La Chinita.",
+    age: 20,
+    date_death: {
+      day: 28,
+      month: 06,
+      year: 2017
+    },
+    coments: "Fue arrollado por un camión cisterna durante una manifestación.",
+    place_death: "Estado Zulia",
+    links:"http://runrun.es/nacional/venezuela-2/315533/muere-manifestante-tras-ser-arrollado-por-un-camion-en-zulia.html",
     image: "images/photos/no-photo.jpg"
   }
 
