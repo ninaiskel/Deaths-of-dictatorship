@@ -1318,6 +1318,111 @@ const people = [
     place_death: "Estado Zulia",
     links:"http://runrun.es/nacional/venezuela-2/315533/muere-manifestante-tras-ser-arrollado-por-un-camion-en-zulia.html",
     image: "images/photos/no-photo.jpg"
-  }
+  },
+  {
+    id: 91,
+    name: "Víctor Manuel Betancourt González",
+    description: "Residía en el sector Sabater,",
+    age: 18,
+    date_death: {
+      day: 28,
+      month: 06,
+      year: 2017
+    },
+    coments: "Falleció luego de ser arrollado por vehículo modelo Yaris mientras en los alrededores se realizaba una protesta denominada “trancazo nacional”",
+    place_death: "Estado Sucre",
+    links:"https://elpitazo.com/regiones/audio-murio-joven-que-fue-arrollado-durante-trancazo-en-san-miguel-de-cumana/",
+    image: "images/photos/no-photo.jpg"
+  },
+  {
+    id: 92,
+    name: "Alexander Rafael Sanoja Sánchez",
+    description: "Era técnico en refrigeración en la clínica Falcón.",
+    age: 36,
+    date_death: {
+      day: 28,
+      month: 06,
+      year: 2017
+    },
+    coments: "Se trasladaba como patrullero en una moto cerca de donde se desarrollaba una manifestación en la parroquia Cristo de Aranza de Maracaibo, edo. Zulia. Un camión que intentaba evitar las barricadas dio un giro prohibido y colisionó con la moto, hiriendo al piloto y al parrillero. Sanoja sufrió quemaduras y traumatismo craneoencefálico, razón por la cual falleció",
+    place_death: "Estado Zulia",
+    links:"http://noticiaaldia.com/2017/06/la-triste-historia-de-alexander-sanoja-desesperado-por-llegar-a-su-casa-murio-quemado-durante-guarimba-en-sabaneta/",
+    image: "images/photos/alexander-sanoja.jpg"
+  },
+  {
+    id: 93,
+    name: "Alfredo José Figuera Gutiérrez",
+    description: "Egresaría de sexto año y se graduaría como técnico medio de informática",
+    age: 19,
+    date_death: {
+      day: 29,
+      month: 06,
+      year: 2017
+    },
+    coments: "Grupos de civiles armados atacaron a tiros a los jóvenes quienes participaban en el trancazo realizado el pasado lunes 26 de junio dejando heridos a otros cuatro jóvenes.",
+    place_death: "Estado Aragua",
+    links:"http://runrun.es/nacional/315641/fallecio-jose-figuera-herido-de-un-tiro-en-la-cabeza-durante-protesta-en-maracay.html",
+    image: "images/photos/alfredo-figuera.jpg"
+  },
+  {
+    id: 94,
+    name: "Eduardo José Márquez Albarrán",
+    description: "Márquez estaba internado en tras haber sido herido el pasado 13 de junio durante una protesta en el sector Pie del Llano.",
+    age: 20,
+    date_death: {
+      day: 30,
+      month: 06,
+      year: 2017
+    },
+    coments: "Luego de pasar 17 días internado en el Hospital Instituto Autónomo de la Universidad de Los Andes (Iaula) por un impacto de arma de fuego en el abdomen durante una manifestación en sector Pie de Llano",
+    place_death: "Estado Mérida",
+    links:"http://runrun.es/nacional/venezuela-2/315716/murio-manifestante-herido-con-arma-de-fuego-en-merida.html",
+    image: "images/photos/eduardo-marquez.jpg"
+  },
+  {
+    id: 94,
+    name: "Rubén Alexander Morillo Pereira",
+    description: "Era conocido como Bube",
+    age: 33,
+    date_death: {
+      day: 30,
+      month: 06,
+      year: 2017
+    },
+    coments: "Es uno de los cuatro fallecidos durante los disturbios que se dieron en Barquisimeto, Desde tempranas horas de ese viernes, paramilitares se encargaron de sembrar el terror exhibiendo armas cortas y largas en varias zonas de Barquisimeto.",
+    place_death: "Estado Lara",
+    links:"http://runrun.es/nacional/315770/gobernador-de-lara-reporto-dos-victimas-tras-sucesos-de-este-viernes.html",
+    image: "images/photos/ruben-morillo.jpg"
+  },
+  {
+    id: 95,
+    name: "Fernando Rojas Rubio",
+    description: "",
+    age: 49,
+    date_death: {
+      day: 30,
+      month: 06,
+      year: 2017
+    },
+    coments: "Es uno de los cuatro fallecidos durante los disturbios que se dieron en Barquisimeto, Desde tempranas horas de ese viernes, paramilitares se encargaron de sembrar el terror exhibiendo armas cortas y largas en varias zonas de Barquisimeto.",
+    place_death: "Estado Lara",
+    links:"http://runrun.es/nacional/315770/gobernador-de-lara-reporto-dos-victimas-tras-sucesos-de-este-viernes.html",
+    image: "images/photos/fernando-rojas.jpg"
+  },
+  {
+    id: 96,
+    name: "José Gregorio Mendoza Durán",
+    description: "Era propietario de una carnicería en Los Cerrajones",
+    age: 44,
+    date_death: {
+      day: 30,
+      month: 06,
+      year: 2017
+    },
+    coments: "Es uno de los cuatro fallecidos durante los disturbios que se dieron en Barquisimeto, Desde tempranas horas de ese viernes, paramilitares se encargaron de sembrar el terror exhibiendo armas cortas y largas en varias zonas de Barquisimeto.",
+    place_death: "Estado Lara",
+    links:"http://runrun.es/nacional/315770/gobernador-de-lara-reporto-dos-victimas-tras-sucesos-de-este-viernes.html",
+    image: "images/photos/jose-mendoza.jpg"
+  },
 
 ];
