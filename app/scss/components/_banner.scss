@@ -3,17 +3,16 @@
   color: white;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 340px;
   justify-content: space-between;
-  padding: 40px;
+  padding: 26px;
   position: relative;
 
-  @include breakpoint('medium'){
-    height: 400px;
+  @include breakpoint('>=small<=medium') {
+    height: auto;
   }
 
   @include breakpoint('small'){
-    height: auto;
     padding: 20px;
   }
 
@@ -54,9 +53,13 @@
       width: 78%;
     }
 
+    @include breakpoint('>=small<=medium') {
+        margin-top: 40px;
+        width: 84%;
+    }
+
     @include breakpoint('small'){
       width: 100%;
-      margin-top: 40px;
     }
 
     p {
@@ -69,9 +72,12 @@
     .counter {
       color: map-get($colors, second);
       font-size: 5.4rem;
+      @include breakpoint('medium'){
+        font-size: 4.2rem;
+      }
 
       @include breakpoint('small'){
-        font-size: 4rem;
+        font-size: 3.8rem;
       }
     }
   }

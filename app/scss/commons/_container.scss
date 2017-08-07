@@ -1,4 +1,12 @@
 .container {
   margin: 0 auto;
-  width: 90%;
+  width: 86%;
+
+  @include breakpoint('xlarge') {
+    width: 84%;
+  }
+
+  @include breakpoint('>=small<=medium') {
+    width: 90%;
+  }
 }
