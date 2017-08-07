@@ -1,18 +1,32 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 40px;
+  font-size: .9rem;
+
+  @include breakpoint('>=small<=medium') {
+    padding: 40px 20px;
+  }
+
+  @include breakpoint('small') {
+    display: block;
+  }
+
+  &-message {
+    flex-basis: 65%;
+  }
 
   &-share {
     display: flex;
     flex-direction: column;
+    flex-basis: 35%;
+    text-align: right;
 
-    justify-content: center;
-    padding: 20px;
-
-    h3 {
-      font-size: 1.5rem;
+    @include breakpoint('small') {
+      text-align: center;
+      margin-top: 20px;
     }
+
   }
 
   &-copy {
@@ -24,6 +38,11 @@
 .list-social {
   display: flex;
   margin-bottom: 10px;
+  flex-direction: row-reverse;
+
+  @include breakpoint('small') {
+    justify-content: center;
+  }
 
   &-item {
     margin: 0 10px;
