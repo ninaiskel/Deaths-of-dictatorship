@@ -77,21 +77,24 @@ function showDetails(id) {
                    x.date_death.day + ' . ' + x.date_death.month + ' . ' + x.date_death.year + '</p>' + '</li>' +
                    '<li class="content-info-data">' + '<span class="content-info-title">Lugar del asesinato</span>' +
                    '<p class="content-info-result">' + x.place_death + '</p>' + '</li>' + '</ul>' +
-                   '<div class="content-coments">' + '<h4>comentarios adicionales</h4>' +
-                   '<p>' + x.coments + '</p>' + '</div>' + '<div class="content-coments-links">' +
-                   '<h4>enlaces de informacion</h4>' + '<a target="_blank" href="' + x.links + '">Enlace</a>' + '</div>' +
+                   '<div class="content-comments">' + '<h4>comentarios adicionales</h4>' +
+                   '<p>' + x.comments + '</p>' + '</div>' + '<div class="content-comments-links">' +
+                   '<h4>enlaces de informacion</h4>' + '<a target="_blank" href="' + x.links + '">Enlace a la noticia</a>' + '</div>' +
                    '<button onClick="goBack()" class="botton-back">' + '<svg class="icon icon-back">' +
                    '<use xlink:href="#icon-back"></use>' + '</svg>' + 'Volver' + '<button>' +
                    '</div>';
   })
 
   detailPeople.innerHTML = modalContent;
-  modalDetail.style.display = 'block';
+  modalDetail.style.transform = 'scale(1)';
+  detailPeople.style.transform = 'translateX(0px)';
+  console.log(modalDetail)
   return showDetails
 };
 
 function goBack() {
-  modalDetail.style.display = 'none';
+  modalDetail.style.transform = 'scale(0)';
+  detailPeople.style.transform = 'translateX(2000px)';
   return goBack
 };
 
@@ -112,5 +115,30 @@ function closeFiltered() {
   return closeFiltered
 };
 
-
 //
+//nouislider
+// var range = document.getElementById('range');
+//
+// noUiSlider.create(range, {
+// 	start: [ 4, 5, 6, 7, 8 ], // 4 handles, starting at...
+// 	margin: 300, // Handles must be at least 300 apart
+// 	limit: 600, // ... but no more than 600
+// 	connect: true, // Display a colored bar between the handles
+// 	direction: 'rtl', // Put '0' at the bottom of the slider
+// 	orientation: 'horizontal', // Orient the slider vertically
+// 	behaviour: 'tap-drag', // Move handle on tap, bar is draggable
+// 	step: 150,
+// 	tooltips: true,
+// 	format: wNumb({
+// 		decimals: 0
+// 	}),
+// 	range: {
+// 		'min': 4,
+// 		'max': 8
+// 	},
+// 	pips: { // Show a scale with the slider
+// 		mode: 'steps',
+// 		stepped: true,
+// 		density: 4
+// 	}
+// });
