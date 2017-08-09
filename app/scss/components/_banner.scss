@@ -24,6 +24,10 @@
     width: 60%;
     z-index: 0;
 
+    @include breakpoint('xlarge'){
+      width: 44%;
+    }
+
     @include breakpoint('small'){
       opacity: .8;
     }
@@ -35,7 +39,7 @@
     z-index: 1;
 
     @include breakpoint('xlarge'){
-      width: 78%;
+      width: 73%;
     }
 
     @include breakpoint('>=small<=medium') {
