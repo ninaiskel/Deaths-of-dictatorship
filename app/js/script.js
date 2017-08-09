@@ -21,12 +21,19 @@ const HTMLGenerator = (person) => {
   innerHtml.innerHTML = cardsPeople
 
 // filter by age
+const btnOld = document.getElementById('btn-old')
+const btnSmaller = document.getElementById('btn-smaller')
+
 function filterByAge(isOldMan) {
   let peopleByAge
   peopleByAge = people.filter( x => {
     if ( isOldMan ) {
+      btnOld.classList.add('btn-option-on')
+      btnSmaller.classList.remove('btn-option-on')
       if (18 <= x.age) return x
     } else {
+      btnSmaller.classList.add('btn-option-on')
+      btnOld.classList.remove('btn-option-on')
       if (18 >= x.age) return x
     }
   })
@@ -38,6 +45,13 @@ function filterByAge(isOldMan) {
   document.getElementById('cards-people').innerHTML = cardsPeople
   return peopleByAge
 }
+// function clickAge(x) {
+//   if (filterByAge(true)) {
+//     return btn-option.classList.add('btn-option-on');
+//   } else {
+//     return btn-option.classList.add('btn-option-off');
+//   }
+// }
 
 //filter by place_death
 const getValue = () => {
@@ -55,11 +69,11 @@ const getValue = () => {
 
 //modal
 const modalDetail = document.getElementById('modal');
+const detailPeople = document.getElementById('modal-inside');
 function showDetails(id) {
   const filterPeople =  people.filter( x => {
     if (id == x.id) return x
   })
-  const detailPeople = document.getElementById('modal-inside');
   let modalContent = ''
 
   filterPeople.map( x => {
@@ -88,15 +102,16 @@ function showDetails(id) {
   detailPeople.innerHTML = modalContent;
   modalDetail.style.transform = 'scale(1)';
   detailPeople.style.transform = 'translateX(0px)';
-  console.log(modalDetail)
   return showDetails
 };
 
 function goBack() {
   modalDetail.style.transform = 'scale(0)';
-  detailPeople.style.transform = 'translateX(2000px)';
+  detailPeople.style.transform = 'translateX(1900px)';
   return goBack
+
 };
+
 
 //open filtered
 const filtered = document.getElementById('filtered');
@@ -115,8 +130,11 @@ function closeFiltered() {
   return closeFiltered
 };
 
-//
-//nouislider
+//function counter
+const counter = document.getElementById('counter-num');
+counter.innerHTML = people.length;
+
+// nouislider
 // var range = document.getElementById('range');
 //
 // noUiSlider.create(range, {

@@ -62,10 +62,9 @@
           <svg class="icon-tie">
             <use xlink:href="#tie"></use>
           </svg>
-          <p>Es <span class="triangle"></span></p>
         </div>
         <div class="banner-content">
-          <h1><span class="counter">130</span> Asesinados por la dictadura</h1>
+          <h1><span id="counter-num" class="counter"></span> Asesinados por la dictadura</h1>
           <p>Listado de asesinados desde el mes de abril, durante las últimas protestas en Venezuela en contra de Nicolas Maduro y su gobierno. El número de heridos no ha sido preciso, se estima que son apróximadamente 15 mil.</p>
         </div>
     </section>
@@ -88,10 +87,10 @@
             <div class="filter-item filter-by-age">
               <label for="">Edad</label>
               <div class="filter-item-options">
-                <button type="button" onClick="filterByAge(false)" class="btn-option btn-option-on" >
+                <button type="button" id="btn-smaller" onClick="filterByAge(false)" class="btn-option " >
                   Menor de edad
                 </button>
-                <button type="button" onClick="filterByAge(true)" class="btn-option btn-option-of" >
+                <button type="button" id="btn-old" onClick="filterByAge(true)" class="btn-option " >
                   Mayor de edad
                 </button>
               </div>

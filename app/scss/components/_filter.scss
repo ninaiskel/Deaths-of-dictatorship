@@ -40,7 +40,7 @@
   &-select {
     position: relative;
     display: inline-block;
-    border-color: #ddd;
+    border-color: map-get($colors, border);
 
     &:after {
       color: map-get($colors, second);
@@ -57,6 +57,7 @@
       appearance: none;
       background-color: transparent;
       border-radius: 100px;
+      border: 1px solid map-get($colors, border);
       position: relative;
       cursor: pointer;
       font-size: .98rem;
@@ -81,7 +82,11 @@
   flex-wrap: wrap;
 
   &-age {
-    flex-basis: 36%;
+    flex-basis: 35%;
+
+    @include breakpoint('xlarge') {
+      flex-basis: 29%;
+    }
 
     @include breakpoint('medium') {
       flex-basis: 49%;
@@ -93,8 +98,11 @@
   }
 
   &-state {
-    flex-basis: 21%;
-    margin-left: 2%;
+    flex-basis: 22%;
+
+    @include breakpoint('xlarge') {
+      flex-basis: 20%;
+    }
 
     @include breakpoint('medium') {
       flex-basis: 44%;
@@ -108,12 +116,19 @@
   }
 
   &-date {
-      flex-basis: 36%;
+      flex-basis: 34%;
       margin-left: 4%;
+
+      @include breakpoint('xlarge') {
+        flex-basis: 34%;
+        margin-left: 2%;
+      }
 
       @include breakpoint('>=small<=medium') {
         flex-basis: 100%;
         margin-top: 20px;
+        margin-left: 0%;
+        margin-right: 2%;
       }
   }
 }

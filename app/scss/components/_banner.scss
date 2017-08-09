@@ -29,21 +29,6 @@
     }
   }
 
-  &-head {
-    display: flex;
-    justify-content: space-between;
-
-    p {
-      align-items: center;
-      display: flex;
-      align-self: flex-start;
-
-      .triangle {
-        margin-left: 6px;
-      }
-    }
-  }
-
   &-content {
     width: 80%;
     position: relative;
