@@ -21,6 +21,10 @@
       transform: translateX(1900px);
       transition: all .8s ease-in-out;
 
+      @include breakpoint('xlarge') {
+        width: 64%;
+      }
+
       @include breakpoint('>=small<=medium') {
         height: auto;
       }
@@ -55,7 +59,6 @@
         align-items: flex-start;
         flex-direction: column-reverse;
         height: auto;
-
       }
 
       &-photo {
@@ -74,6 +77,11 @@
           max-width: 220px;
           width: auto;
 
+          @include breakpoint('xlarge') {
+            height: 260px;
+            max-width: 260px;
+          }
+
           @include breakpoint('small') {
             height: 180px;
             max-width: 180px;
@@ -85,6 +93,14 @@
     &-content {
       background: white;
       padding: 40px;
+
+      @include breakpoint('xlarge') {
+        padding: 60px;
+      }
+
+      @include breakpoint('>=small<=medium') {
+        padding: 20px;
+      }
     }
 }
 
@@ -139,6 +155,7 @@
   color: map-get($colors, second);
   text-transform: capitalize;
   transition: all ease .6s;
+  margin-top: 20px;
   &:hover {
     text-decoration: underline;
   }
