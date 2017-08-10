@@ -174,3 +174,15 @@ function goBack() {
 //function counter
 const counter = document.getElementById('counter-num');
 counter.innerHTML = people.length;
+
+//scroll
+const buttonScroll = document.getElementById('scroll-to-top');
+function scrollToTop(scrollDuration) {
+    let scrollStep = -window.scrollY / (scrollDuration / 10),
+        scrollInterval = setInterval(function(){
+        if ( window.scrollY != 0 ) {
+            window.scrollBy( 0, scrollStep );
+        }
+        else clearInterval(scrollInterval);
+    },10);
+}
