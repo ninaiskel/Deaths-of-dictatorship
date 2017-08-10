@@ -21,4 +21,11 @@
     height: 40px;
     width: 40px;
   }
+
+  &-up {
+    fill: #ffffff;
+    height: 15px;
+    transform: rotate(90deg);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
 }
