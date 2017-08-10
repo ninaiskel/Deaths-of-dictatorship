@@ -23,20 +23,32 @@ const HTMLGenerator = (person) => {
 // filter by age
 const btnOld = document.getElementById('btn-old')
 const btnSmaller = document.getElementById('btn-smaller')
+const btnBoth = document.getElementById('btn-both')
 
 function filterByAge(isOldMan) {
-  let peopleByAge
-  peopleByAge = people.filter( x => {
-    if ( isOldMan ) {
-      btnOld.classList.add('btn-option-on')
-      btnSmaller.classList.remove('btn-option-on')
-      if (18 <= x.age) return x
-    } else {
-      btnSmaller.classList.add('btn-option-on')
-      btnOld.classList.remove('btn-option-on')
-      if (18 >= x.age) return x
-    }
-  })
+  let peopleByAge = []
+
+  console.log(isOldMan)
+
+  if (isOldMan === 'both') {
+    btnBoth.classList.add('btn-option-on')
+    btnOld.classList.remove('btn-option-on')
+    btnSmaller.classList.remove('btn-option-on')
+    peopleByAge = people
+  } else {
+    peopleByAge = people.filter( x => {
+      btnBoth.classList.remove('btn-option-on')
+      if ( isOldMan ) {
+        btnOld.classList.add('btn-option-on')
+        btnSmaller.classList.remove('btn-option-on')
+        if (18 <= x.age) return x
+      } if ( !isOldMan ) {
+        btnSmaller.classList.add('btn-option-on')
+        btnOld.classList.remove('btn-option-on')
+        if (18 >= x.age) return x
+      }
+    })
+  }
 
   let cardsPeople = ''
   peopleByAge.map(x => {
@@ -45,26 +57,27 @@ function filterByAge(isOldMan) {
   document.getElementById('cards-people').innerHTML = cardsPeople
   return peopleByAge
 }
-// function clickAge(x) {
-//   if (filterByAge(true)) {
-//     return btn-option.classList.add('btn-option-on');
-//   } else {
-//     return btn-option.classList.add('btn-option-off');
-//   }
-// }
+
 
 //filter by place_death
 const getValue = () => {
   const state = document.getElementById('states').value
-  const peopleByState = people.filter( x => {
-    if (state === x.place_death) return x
-  })
+  let peopleByState = []
+  if (state === 'Todos') {
+      peopleByState = people
+  } else {
+     peopleByState = people.filter( x => {
+      if (state === x.place_death) return x
+    })
+  }
+
   let cardsPeople = ''
   peopleByState.map(x => {
     cardsPeople = cardsPeople + HTMLGenerator(x)
   })
   document.getElementById('cards-people').innerHTML = cardsPeople
   return peopleByState
+
 }
 
 //modal
@@ -109,7 +122,6 @@ function goBack() {
   modalDetail.style.transform = 'scale(0)';
   detailPeople.style.transform = 'translateX(1900px)';
   return goBack
-
 };
 
 

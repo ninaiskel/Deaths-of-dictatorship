@@ -82,10 +82,10 @@
   flex-wrap: wrap;
 
   &-age {
-    flex-basis: 35%;
+    flex-basis: 28%;
 
     @include breakpoint('xlarge') {
-      flex-basis: 29%;
+      flex-basis: 25%;
     }
 
     @include breakpoint('medium') {
