@@ -1,5 +1,5 @@
 //cards
-const HTMLGenerator = (person) => {
+function HTMLGenerator(person) {
   let content = ''
   let cardContent = '<li class="card">' + '<button class="card-btn" onClick="showDetails(' + person.id + ')">' + '</button>';
   cardContent = cardContent + '<div class="card-pic">' +
@@ -13,11 +13,12 @@ const HTMLGenerator = (person) => {
   return content
 }
 let cardsPeople = ''
-people.map(x => {
+people.map(function(x) {
   cardsPeople = cardsPeople + HTMLGenerator(x)
+  return cardsPeople
 })
 
-const innerHtml = document.getElementById('cards-people')
+let innerHtml = document.getElementById('cards-people')
 innerHtml.innerHTML = cardsPeople
 //end cardsPeople
 
@@ -61,7 +62,7 @@ function filterByAge(isOldMan) {
     btnSmaller.classList.remove('btn-option-on')
     peopleByAge = people
   } else {
-    peopleByAge = people.filter( x => {
+    peopleByAge = people.filter(function(x) {
       btnBoth.classList.remove('btn-option-on')
       if ( isOldMan ) {
         btnOld.classList.add('btn-option-on')
@@ -76,7 +77,7 @@ function filterByAge(isOldMan) {
   }
 
   let cardsPeople = ''
-  peopleByAge.map(x => {
+  peopleByAge.map(function(x) {
     cardsPeople = cardsPeople + HTMLGenerator(x)
   })
   document.getElementById('cards-people').innerHTML = cardsPeople
@@ -84,19 +85,19 @@ function filterByAge(isOldMan) {
 }
 
 //filter by place_death
-const getValue = () => {
+function getValue () {
   const state = document.getElementById('states').value
   let peopleByState = []
   if (state === 'Todos') {
     peopleByState = people
   } else {
-    peopleByState = people.filter( x => {
+    peopleByState = people.filter( function(x) {
       if (state === x.place_death) return x
     })
   }
 
   let cardsPeople = ''
-  peopleByState.map(x => {
+  peopleByState.map(function(x) {
     cardsPeople = cardsPeople + HTMLGenerator(x)
   })
   document.getElementById('cards-people').innerHTML = cardsPeople
@@ -104,21 +105,21 @@ const getValue = () => {
 }
 
 //filterbymonth
-const getMonth = () => {
+function getMonth() {
   const month = document.getElementById('months').value
   let peopleByMonth = []
   if (month === 'Todos') {
     peopleByMonth = people
     // show all cards of people
   } else {
-    peopleByMonth = people.filter( x => {
+    peopleByMonth = people.filter( function(x) {
       if (Number(month) === x.date_death.month) return x
       // show only by month
     })
   }
 
   let cardsPeople = ''
-  peopleByMonth.map(x => {
+  peopleByMonth.map(function(x) {
     cardsPeople = cardsPeople + HTMLGenerator(x)
   })
   document.getElementById('cards-people').innerHTML = cardsPeople
@@ -131,12 +132,12 @@ const modalDetail = document.getElementById('modal');
 const detailPeople = document.getElementById('modal-inside');
 
 function showDetails(id) {
-  const filterPeople =  people.filter( x => {
+  const filterPeople =  people.filter(function(x) {
     if (id == x.id) return x
   })
   let modalContent = ''
 
-  filterPeople.map( x => {
+  filterPeople.map(function(x) {
     let peopleContent = '<div class="details-modal-header">' +
     '<div class="modal-header-description">' +
     '<h1>' + x.name + '</h1>' +
