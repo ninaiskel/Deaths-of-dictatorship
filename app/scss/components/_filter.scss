@@ -1,6 +1,14 @@
+#filtered {
+  display: none;
+}
+
 .filter {
   padding: 10px 0;
   font-size: 0.98rem;
+
+  &-active {
+    display: block;
+  }
 
   &-head {
     display: flex;
@@ -133,9 +141,6 @@
   }
 }
 
-#filtered {
-  display: none;
-}
 
 #close-filter {
   display: none;
