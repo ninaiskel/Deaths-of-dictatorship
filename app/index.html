@@ -122,34 +122,17 @@
             </div>
             <div class="filter-item filter-by-date">
               <label for="">Mes del suceso</label>
-              <div id="range" class="noUi-target noUi-ltr noUi-horizontal">
-                <div class="noUi-base"><div class="noUi-origin" style="left: 5.7508%;">
-                  <div class="noUi-handle noUi-handle-lower"
-                  data-handle="0"
-                  tabindex="0"
-                  role="slider"
-                  aria-orientation="horizontal"
-                  aria-valuemin="0.0"
-                  aria-valuemax="100.0"
-                  aria-valuenow="5.8"
-                  aria-valuetext="1273190400000"
-                  style="z-index: 5;">
-                  </div>
-                </div>
-                <div class="noUi-origin" style="left: 100%;">
-                  <div class="noUi-handle noUi-handle-upper"
-                  data-handle="1"
-                  tabindex="0"
-                  role="slider"
-                  aria-orientation="horizontal"
-                  aria-valuemin="5.8"
-                  aria-valuemax="100.0"
-                  aria-valuenow="100.0"
-                  aria-valuetext="1451606400000"
-                  style="z-index: 4;">
-                  </div>
-                </div>
+              <div class="filter-select">
+                <select class="filter-item-select" onChange="getMonth()" name="months" id="months">
+                  <option class="select-option" value="Todos">Todos</option>
+                  <option class="select-option" value="04">Abril</option>
+                  <option class="select-option" value="05">Mayo</option>
+                  <option class="select-option" value="06">Junio</option>
+                  <option class="select-option" value="07">Julio</option>
+                  <option class="select-option" value="08">Agosto</option>
+                </select>
               </div>
+
             </div>
           </form>
       </div>

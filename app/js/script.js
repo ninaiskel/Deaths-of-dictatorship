@@ -19,6 +19,30 @@ const HTMLGenerator = (person) => {
 
   const innerHtml = document.getElementById('cards-people')
   innerHtml.innerHTML = cardsPeople
+  //end cardsPeople
+
+  //open filtered
+  const filtered = document.getElementById('filtered');
+  const closeFilter = document.getElementById('close-filter');
+
+  function openFilter() {
+    if (filtered.style.display === 'none') {
+        filtered.style.display = 'block';
+        closeFilter.style.display = 'block';
+    } else {
+        filtered.style.display = 'none';
+        closeFilter.style.display = 'none';
+    }
+    
+    return openFilter
+  }
+
+  function closeFiltered() {
+    filtered.style.display = 'none';
+    closeFilter.style.display = 'none';
+
+    return closeFiltered
+  };
 
 // filter by age
 const btnOld = document.getElementById('btn-old')
@@ -58,7 +82,6 @@ function filterByAge(isOldMan) {
   return peopleByAge
 }
 
-
 //filter by place_death
 const getValue = () => {
   const state = document.getElementById('states').value
@@ -77,12 +100,35 @@ const getValue = () => {
   })
   document.getElementById('cards-people').innerHTML = cardsPeople
   return peopleByState
-
 }
 
+//filterbymonth
+const getMonth = () => {
+  const month = document.getElementById('months').value
+  let peopleByMonth = []
+  if (month === 'Todos') {
+      peopleByMonth = people
+      // show all cards of people
+  } else {
+     peopleByMonth = people.filter( x => {
+      if (Number(month) === x.date_death.month) return x
+      // show only by month
+    })
+  }
+
+  let cardsPeople = ''
+  peopleByMonth.map(x => {
+    cardsPeople = cardsPeople + HTMLGenerator(x)
+  })
+  document.getElementById('cards-people').innerHTML = cardsPeople
+  return peopleByMonth
+}
+
+// Open and close modal cards
 //modal
 const modalDetail = document.getElementById('modal');
 const detailPeople = document.getElementById('modal-inside');
+
 function showDetails(id) {
   const filterPeople =  people.filter( x => {
     if (id == x.id) return x
@@ -113,62 +159,19 @@ function showDetails(id) {
   })
 
   detailPeople.innerHTML = modalContent;
-  modalDetail.style.transform = 'scale(1)';
-  detailPeople.style.transform = 'translateX(0px)';
+  modalDetail.classList.add('details-modal-active')
+  detailPeople.classList.add('details-modal-wrap-active')
   return showDetails
 };
 
 function goBack() {
-  modalDetail.style.transform = 'scale(0)';
-  detailPeople.style.transform = 'translateX(1900px)';
+  modalDetail.classList.remove('details-modal-active')
+  detailPeople.classList.remove('details-modal-wrap-active')
   return goBack
 };
 
 
-//open filtered
-const filtered = document.getElementById('filtered');
-const closeFilter = document.getElementById('close-filter');
-
-function openFilter() {
-  filtered.style.display = 'block';
-  closeFilter.style.display = 'block';
-
-  return openFilter
-}
-function closeFiltered() {
-  filtered.style.display = 'none';
-  closeFilter.style.display = 'none';
-
-  return closeFiltered
-};
 
 //function counter
 const counter = document.getElementById('counter-num');
 counter.innerHTML = people.length;
-
-// nouislider
-// var range = document.getElementById('range');
-//
-// noUiSlider.create(range, {
-// 	start: [ 4, 5, 6, 7, 8 ], // 4 handles, starting at...
-// 	margin: 300, // Handles must be at least 300 apart
-// 	limit: 600, // ... but no more than 600
-// 	connect: true, // Display a colored bar between the handles
-// 	direction: 'rtl', // Put '0' at the bottom of the slider
-// 	orientation: 'horizontal', // Orient the slider vertically
-// 	behaviour: 'tap-drag', // Move handle on tap, bar is draggable
-// 	step: 150,
-// 	tooltips: true,
-// 	format: wNumb({
-// 		decimals: 0
-// 	}),
-// 	range: {
-// 		'min': 4,
-// 		'max': 8
-// 	},
-// 	pips: { // Show a scale with the slider
-// 		mode: 'steps',
-// 		stepped: true,
-// 		density: 4
-// 	}
-// });

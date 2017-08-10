@@ -17,7 +17,7 @@ const people = [
   {
     id: 2,
     name: "Daniel queliz Araca",
-    description: "estudiante de derecho de la Universidad Arturo Michelena ",
+    description: "Estudiante de derecho de la Universidad Arturo Michelena ",
     age: 20,
     date_death: {
       day: 10,
@@ -32,7 +32,7 @@ const people = [
   {
     id: 3,
     name: "Miguel colmenares",
-    description: "_",
+    description: "",
     age: 36,
     date_death: {
       day: 11,
@@ -40,7 +40,7 @@ const people = [
       year: 2017
     },
     place_death: "Estado Lara",
-    comments: "quien recibió 11 disparos por colectivos, señalaron medios de comunicación. Los hechos ocurrieron en la calle 59 del oeste de Barquisimeto, donde se realizaban manifestaciones violentas y trancas de calles.",
+    comments: "Recibió 11 disparos por colectivos, señalaron medios de comunicación. Los hechos ocurrieron en la calle 59 del oeste de Barquisimeto, donde se realizaban manifestaciones violentas y trancas de calles.",
     links:"http://www.el-nacional.com/noticias/sucesos/mataron-disparos-joven-durante-manifestacion-barquisimeto_159875" ,
     image: "images/photos/miguel-colmenares.jpg"
   },
@@ -62,7 +62,7 @@ const people = [
   {
     id: 5,
     name: "Gruseny Antonio Canelón Scirpatempo",
-    description: "deportista  y se dedicaba a la venta de repuestos de vehículos. Era conocido como Tony por sus amigos y allegados.",
+    description: "Deportista y se dedicaba a la venta de repuestos de vehículos. Era conocido como Tony por sus amigos y allegados.",
     age: 32,
     date_death: {
       day: 14,

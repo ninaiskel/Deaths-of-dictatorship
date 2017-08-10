@@ -34,7 +34,8 @@
   }
 
   label {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    color: #888;
   }
 
   &-select {
@@ -46,7 +47,7 @@
       color: map-get($colors, second);
       content: "▾";
       display: block;
-      margin-top: -15px;
+      margin-top: -14px;
       position: absolute;
       right: 20px;
       top: 50%;
@@ -89,7 +90,7 @@
     }
 
     @include breakpoint('medium') {
-      flex-basis: 49%;
+      flex-basis: 34%;
     }
 
     @include breakpoint('small') {
@@ -98,37 +99,36 @@
   }
 
   &-state {
-    flex-basis: 22%;
+    flex-basis: 28%;
 
     @include breakpoint('xlarge') {
-      flex-basis: 20%;
+      flex-basis: 24%;
     }
 
     @include breakpoint('medium') {
-      flex-basis: 44%;
+      flex-basis: 32%;
     }
 
     @include breakpoint('small') {
-      flex-basis: 100%;
-      margin-left: 0;
-      margin-top: 20px;
+      flex-basis: 80%;
+      margin-top: 18px;
     }
   }
 
   &-date {
-      flex-basis: 34%;
-      margin-left: 4%;
+      flex-basis: 28%;
 
       @include breakpoint('xlarge') {
-        flex-basis: 34%;
-        margin-left: 2%;
+        flex-basis: 24%;
       }
 
-      @include breakpoint('>=small<=medium') {
-        flex-basis: 100%;
-        margin-top: 20px;
-        margin-left: 0%;
-        margin-right: 2%;
+      @include breakpoint('medium') {
+        flex-basis: 26%;
+      }
+
+      @include breakpoint('small') {
+        flex-basis: 80%;
+        margin-top: 18px;
       }
   }
 }

@@ -1,17 +1,21 @@
 #modal {
-  transform: scale(0);
+  // transform: scale(0);
 }
-
 .details-modal {
     background-color: rgba(0,0,0,0.8);
     font-size: .98rem;
     height: 100%;
     left: 0;
-    overflow: auto; ;
+    overflow: auto;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 2;
+    transform: scale(0);
+
+    &-active {
+      transform: scale(1);
+    }
 
     &-wrap {
       background: white;
@@ -19,7 +23,7 @@
       height: 100vh;
       width: 70%;
       transform: translateX(1900px);
-      transition: all .8s ease-in-out;
+      transition: all .6s ease-in-out;
 
       @include breakpoint('xlarge') {
         width: 64%;
@@ -36,6 +40,10 @@
       @include breakpoint('small') {
         width: 100%
       }
+    }
+
+    &-wrap-active {
+      transform: translateX(0px);
     }
 
     &-header {
@@ -92,10 +100,10 @@
 
     &-content {
       background: white;
-      padding: 40px;
+      padding: 40px 40px 20px 40px;
 
       @include breakpoint('xlarge') {
-        padding: 60px;
+        padding: 60px 60px 20px 60px;
       }
 
       @include breakpoint('>=small<=medium') {
@@ -154,14 +162,14 @@
   font-size: inherit;
   color: map-get($colors, second);
   text-transform: capitalize;
-  transition: all ease .6s;
   margin-top: 20px;
+
   &:hover {
     text-decoration: underline;
   }
 
   svg {
     margin-right: 6px;
-    transition: all ease .6s;
+    transition: all ease .4s;
   }
 }
