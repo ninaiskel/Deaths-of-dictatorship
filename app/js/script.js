@@ -22,7 +22,7 @@ let innerHtml = document.getElementById('cards-people')
 innerHtml.innerHTML = cardsPeople
 //end cardsPeople
 
-//open filtered
+//open filter
 const filter = document.getElementById('filtered');
 const closeFilter = document.getElementById('close-filter');
 
@@ -38,7 +38,7 @@ function openFilter() {
 
   return openFilter
 }
-
+// close filter
 function closeFiltered() {
   filter.style.display = 'none';
   closeFilter.style.display = 'none';
@@ -75,7 +75,7 @@ function filterByAge(isOldMan) {
       }
     })
   }
-
+  // generate of cards by filter by Age
   let cardsPeople = ''
   peopleByAge.map(function(x) {
     cardsPeople = cardsPeople + HTMLGenerator(x)
@@ -95,7 +95,7 @@ function getValue () {
       if (state === x.place_death) return x
     })
   }
-
+// generate of cards by filter by state
   let cardsPeople = ''
   peopleByState.map(function(x) {
     cardsPeople = cardsPeople + HTMLGenerator(x)
@@ -117,7 +117,7 @@ function getMonth() {
       // show only by month
     })
   }
-
+// generate of cards by filter by month
   let cardsPeople = ''
   peopleByMonth.map(function(x) {
     cardsPeople = cardsPeople + HTMLGenerator(x)
@@ -127,7 +127,7 @@ function getMonth() {
 }
 
 // Open and close modal cards
-//modal
+//modal with the content
 const modalDetail = document.getElementById('modal');
 const detailPeople = document.getElementById('modal-inside');
 
@@ -165,18 +165,18 @@ function showDetails(id) {
   detailPeople.classList.add('details-modal-wrap-active')
   return showDetails
 };
-
+// close modal
 function goBack() {
   modalDetail.classList.remove('details-modal-active')
   detailPeople.classList.remove('details-modal-wrap-active')
   return goBack
 };
 
-//function counter
+//counter people (banner)
 const counter = document.getElementById('counter-num');
 counter.innerHTML = people.length;
 
-//scroll
+//button to top (scroll up)
 const buttonScroll = document.getElementById('scroll-to-top');
 function scrollToTop(scrollDuration) {
     let scrollStep = -window.scrollY / (scrollDuration / 10),
