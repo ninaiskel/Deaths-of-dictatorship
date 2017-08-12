@@ -1,4 +1,4 @@
-# Asesinados por la dictadura / Killed by the dictatorship
+# Muertes de la dictadura Venezolana / Deaths of Venezuelan dictatorship
 
 Este projecto es un registro de las muertes ocurridas durante las últimas protestas en Venezuela en contra del gobierno dictatorial de Nicolas Maduro, que mata a su pueblo de hambre y a balazos, sin discriminación.
 
