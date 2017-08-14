@@ -837,7 +837,7 @@ const people = [
     comments: "Se encontraba durante una manifestación en la Plaza Bolívar de Socopó, parroquia Ticoporo, municipio Antonio José de Sucre del estado Barinas, cuando recibió varios impactos de bala. Falleció al ser trasladado de la clínica San José al Hospital Dr. Luis Razetti.",
     place_death: "Estado Barinas",
     links:"https://www.derechos.org.ve/web/wp-content/uploads/05-06-2017.pdf" ,
-    image: "app/images/photos/miguel-bravo.jpg"
+    image: "app/images/photos/miguel-bravo-r.jpg"
   },
   {
     id: 59,
