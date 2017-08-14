@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="application-name" content="Venezuela">
     <meta name="description" content="Deads of dictatorship">
     <title>Deaths of Venezuelan dictatorship</title>
@@ -93,7 +93,7 @@
             <svg class="icon icon-filter">
               <use xlink:href="#icon-filter"></use>
             </svg>
-            <h3>filtrar por</h3>
+            <h3>filtrar</h3>
           </button>
           <button id="close-filter" class="filter-head-close" onClick="closeFiltered()">
             <svg class="icon icon-close">
@@ -105,23 +105,36 @@
           <form class="filter-inside filter-by" action="">
             <div class="filter-item filter-by-age">
               <label for="">Edad</label>
-              <div class="filter-item-options">
-                <button type="button" id="btn-both" onClick="filterByAge('both')" class="btn-option btn-option-on" >
+              <div id="ages" class="filter-item-options">
+                <div  id="age-both" class="btn-option btn-option-on">
+                  <input type="radio" id="btn-both" name="age" value="0"  checked="checked" onClick="filterBy()">
+                  <label for="btn-both">Todos</label>
+                </div>
+                <div  id="age-smaller" class="btn-option">
+                  <input type="radio" id="btn-smaller" name="age" value="1" onClick="filterBy()">
+                  <label for="btn-smaller">-18</label>
+                </div>
+                <div  id="age-old" class="btn-option">
+                  <input type="radio" id="btn-old" name="age"  value="2" onClick="filterBy()">
+                  <label for="btn-old">+18</label>
+                </div>
+
+                <!-- <button type="button" id="btn-both" onClick="filterBy()" class="btn-option btn-option-on" >
                   Todos
                 </button>
-                <button type="button" id="btn-smaller" onClick="filterByAge(false)" class="btn-option " >
+                <button type="button" id="btn-smaller" onClick="filterBy()" class="btn-option " >
                   - 18
                 </button>
-                <button type="button" id="btn-old" onClick="filterByAge(true)" class="btn-option " >
+                <button type="button" id="btn-old" onClick="filterBy()" class="btn-option " >
                   + 18
-                </button>
+                </button> -->
 
               </div>
             </div>
             <div class="filter-item filter-by-state">
               <label for="">Lugar</label>
               <div class="filter-select">
-                <select class="filter-item-select" onChange="getValue()" name="states" id="states">
+                <select class="filter-item-select" onChange="filterBy()" name="states" id="states">
                   <option class="select-option" value="Todos">Todos</option>
                   <option class="select-option" value="Distrito Capital">Distrito Capital</option>
                   <option class="select-option" value="Estado Miranda">Estado Miranda</option>
@@ -142,7 +155,7 @@
             <div class="filter-item filter-by-date">
               <label for="">Mes</label>
               <div class="filter-select">
-                <select class="filter-item-select" onChange="getMonth()" name="months" id="months">
+                <select class="filter-item-select" onChange="filterBy()" name="months" id="months">
                   <option class="select-option" value="Todos">Todos</option>
                   <option class="select-option" value="04">Abril</option>
                   <option class="select-option" value="05">Mayo</option>
@@ -172,9 +185,8 @@
     <div class="container">
       <footer class="footer">
         <div class="footer-message">
-          <h3>titulo del mensaje</h3>
-          <p>Nos sumamos al sentimiento de las familias, y el país, Deploramos el asesinato de manifestantes y aumento de la represión en Venezuela.
-          <br>Esta lista fue creada como una manera de mantener presente la historia de quienes han muerto las últimas protestas desde abril de 2017 en resistencia a la dictadura de Nicolás Maduro.</p>
+          <p>Nos sumamos al sentimiento de las familias y el país, Deploramos el asesinato de manifestantes y aumento de la represión en Venezuela.
+          <br>Esta lista fue creada como una manera de mantener presente la historia de quienes han muerto en las últimas protestas desde abril de 2017 en resistencia a la dictadura de Nicolás Maduro.</p>
           <p class="footer-copy">Actualizado 12 . 08 . 2017.</p>
         </div>
         <div class="footer-share">

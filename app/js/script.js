@@ -46,46 +46,42 @@ function closeFiltered() {
   return closeFiltered
 };
 
-// filter by age
-const btnOld = document.getElementById('btn-old')
-const btnSmaller = document.getElementById('btn-smaller')
-const btnBoth = document.getElementById('btn-both')
 
-function filterByAge(isOldMan) {
-  let peopleByAge = []
+//filter by age
+const ageOld = document.getElementById('age-old')
+const ageSmaller = document.getElementById('age-smaller')
+const ageBoth = document.getElementById('age-both')
 
-  console.log(isOldMan)
-
-  if (isOldMan === 'both') {
-    btnBoth.classList.add('btn-option-on')
-    btnOld.classList.remove('btn-option-on')
-    btnSmaller.classList.remove('btn-option-on')
+function filterByAge (people) {
+  peopleByAge = []
+  const peopleByAgeCheck = document.querySelector('input[name="age"]:checked').value
+  if (peopleByAgeCheck == '0') {
+    ageBoth.classList.add('btn-option-on')
+    ageOld.classList.remove('btn-option-on')
+    ageSmaller.classList.remove('btn-option-on')
     peopleByAge = people
   } else {
+    ageBoth.classList.remove('btn-option-on')
     peopleByAge = people.filter(function(x) {
-      btnBoth.classList.remove('btn-option-on')
-      if ( isOldMan ) {
-        btnOld.classList.add('btn-option-on')
-        btnSmaller.classList.remove('btn-option-on')
-        if (18 <= x.age) return x
-      } if ( !isOldMan ) {
-        btnSmaller.classList.add('btn-option-on')
-        btnOld.classList.remove('btn-option-on')
+      if (peopleByAgeCheck == '1') {
+        ageSmaller.classList.add('btn-option-on')
+        ageOld.classList.remove('btn-option-on')
         if (18 >= x.age) return x
+      }
+
+      if ( peopleByAgeCheck == '2' ) {
+        ageOld.classList.add('btn-option-on')
+        ageSmaller.classList.remove('btn-option-on')
+        if (18 <= x.age) return x
       }
     })
   }
-  // generate of cards by filter by Age
-  let cardsPeople = ''
-  peopleByAge.map(function(x) {
-    cardsPeople = cardsPeople + HTMLGenerator(x)
-  })
-  document.getElementById('cards-people').innerHTML = cardsPeople
-  return peopleByAge
+    return peopleByAge
 }
 
+
 //filter by place_death
-function getValue () {
+function getValue (people) {
   const state = document.getElementById('states').value
   let peopleByState = []
   if (state === 'Todos') {
@@ -95,12 +91,6 @@ function getValue () {
       if (state === x.place_death) return x
     })
   }
-// generate of cards by filter by state
-  let cardsPeople = ''
-  peopleByState.map(function(x) {
-    cardsPeople = cardsPeople + HTMLGenerator(x)
-  })
-  document.getElementById('cards-people').innerHTML = cardsPeople
   return peopleByState
 }
 
@@ -117,14 +107,28 @@ function getMonth() {
       // show only by month
     })
   }
-// generate of cards by filter by month
-  let cardsPeople = ''
-  peopleByMonth.map(function(x) {
-    cardsPeople = cardsPeople + HTMLGenerator(x)
-  })
-  document.getElementById('cards-people').innerHTML = cardsPeople
   return peopleByMonth
 }
+
+//filter all together
+function filterBy(){
+
+  const state = document.getElementById('states').value
+  const month = document.getElementById('months').value
+  const peopleByAgeCheck = document.querySelector('input[name="age"]:checked').value
+  let peopleResult = getMonth()
+  // getMonth();
+  let peopleValue = getValue(peopleResult);
+  let peopleAge = filterByAge(peopleValue);
+
+  let cardsPeople = ''
+
+  peopleAge.length >= 1 ? peopleAge.map(function(x) {
+    cardsPeople = cardsPeople + HTMLGenerator(x)
+  }) : cardsPeople = '<div class="message-no-cards"><h2>No hay resultados en esta búsqueda</h2>' + '<p>Filtra nuevamente con otras opciones</p>' + '</div>'
+  document.getElementById('cards-people').innerHTML = cardsPeople
+}
+
 
 // Open and close modal cards
 //modal with the content
@@ -139,13 +143,13 @@ function showDetails(id) {
 
   filterPeople.map(function(x) {
     let peopleContent = '<div class="details-modal-header">' +
-    '<div class="modal-header-description">' +
-    '<h1>' + x.name + '</h1>' +
+    '<div class="modal-header-description">' +'<h1>' + x.name + '</h1>' +
     '<p>' + x.description + '</p>' + '</div>';
     modalContent = modalContent + peopleContent  + '<div class="details-modal-header-photo">' +
     '<img src="' + x.image + '" alt="">' + '</div>' + '</div>' +
-    '<div class="details-modal-content">' + '<ul class="content-info">' +
-    '<li class="content-info-data">' + '<span class="content-info-title">Edad</span>' +
+    '<div class="details-modal-content">' + '<button onClick="goBack()" class="button-back">' + '<svg class="icon icon-back">' +
+    '<use xlink:href="#icon-back"></use>' + '</svg>' + 'Volver' + '<button>' +
+    '<ul class="content-info">' + '<li class="content-info-data">' + '<span class="content-info-title">Edad</span>' +
     '<p class="content-info-result">' + x.age + ' Años' + '</p>' + '</li>' +
     '<li class="content-info-data">' + '<span class="content-info-title">' +
     'fecha del asesinato</span>' + '<p class="content-info-result">' +
@@ -154,10 +158,7 @@ function showDetails(id) {
     '<p class="content-info-result">' + x.place_death + '</p>' + '</li>' + '</ul>' +
     '<div class="content-comments">' + '<h4>comentarios adicionales</h4>' +
     '<p>' + x.comments + '</p>' + '</div>' + '<div class="content-comments-links">' +
-    '<h4>enlaces de informacion</h4>' + '<a target="_blank" href="' + x.links + '">Enlace a la noticia</a>' + '</div>' +
-    '<button onClick="goBack()" class="botton-back">' + '<svg class="icon icon-back">' +
-    '<use xlink:href="#icon-back"></use>' + '</svg>' + 'Volver' + '<button>' +
-    '</div>';
+    '<h4>enlaces de informacion</h4>' + '<a target="_blank" href="' + x.links + '">Enlace a la noticia</a>' + '</div>'  + '</div>';
   })
 
   detailPeople.innerHTML = modalContent;
