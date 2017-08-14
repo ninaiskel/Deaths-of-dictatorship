@@ -21,4 +21,5 @@ I have learned to manipulate the DOM (generates HTML from JavaScript, add/remove
 recognize data types (strings, numbers, ojects, arrays), create functions or methods that allows abstraction of snippets and avoid to duplicating them.
 
 
-## Puedes ver el demo [aquí](https://ninaiskel.github.io/Deaths-of-dictatorship/)
+### Puedes ver la página / You can see the page
+[DEMO](https://ninaiskel.github.io/Deaths-of-dictatorship/) 
