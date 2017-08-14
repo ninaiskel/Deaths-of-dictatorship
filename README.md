@@ -19,3 +19,6 @@ With this project I'm getting my first steps with JavaScript, I decided don't us
 
 I have learned to manipulate the DOM (generates HTML from JavaScript, add/remove ID's and Classes, call to action through onclick and onchange events),
 recognize data types (strings, numbers, ojects, arrays), create functions or methods that allows abstraction of snippets and avoid to duplicating them.
+
+
+## Puedes ver el demo [aquí](https://ninaiskel.github.io/Deaths-of-dictatorship/)
