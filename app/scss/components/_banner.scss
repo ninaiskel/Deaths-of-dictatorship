@@ -52,6 +52,11 @@
       display: inline-block;
       margin-right: 10px;
       margin-bottom: 0;
+      font-size: 1.4rem;
+
+      @include breakpoint('>=small<=medium') {
+        font-size: 1rem;
+      }
     }
 
     .counter {
