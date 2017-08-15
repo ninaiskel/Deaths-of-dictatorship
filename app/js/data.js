@@ -107,7 +107,7 @@ const people = [
   {
     id: 8,
     name: "Niumar José Sanclemente Barrios",
-    description: "sargento segundo de la GNB",
+    description: "Sargento segundo de la GNB",
     age: 28,
     date_death: {
       day: 19,
@@ -115,7 +115,7 @@ const people = [
       year: 2017
     },
     place_death: "Estado Miranda",
-    comments: "cuando se encontraba controlando una manifestación en San Antonio de los Altos, estado Miranda. San Clemente resultó herido de un disparo en el tórax cuando un hombre, que aún no ha sido identificado, disparó contra los efectivos de la Fuerza Armada.",
+    comments: "Cuando se encontraba controlando una manifestación en San Antonio de los Altos, estado Miranda. San Clemente resultó herido de un disparo en el tórax cuando un hombre, que aún no ha sido identificado, disparó contra los efectivos de la Fuerza Armada.",
     links:"http://runrun.es/nacional/305695/un-gnb-muerto-y-otro-herido-en-san-antonio-de-los-altos.html" ,
     image: "app/images/photos/niumar-sanclemente.jpg"
   },
@@ -130,7 +130,7 @@ const people = [
       year: 2017
     },
     place_death: "Estado Miranda",
-    comments: "murió el jueves en la noche en el Hospital de El Llanito, pasadas las 9:00 pm, debido a una herida por un tiro de fusil en el abdomen cuando atravesaba el puente del barrio 5 de Julio de Petare, media hora en una protesta de vecinos.",
+    comments: "Murió el jueves en la noche en el Hospital de El Llanito, pasadas las 9:00 pm, debido a una herida por un tiro de fusil en el abdomen cuando atravesaba el puente del barrio 5 de Julio de Petare, media hora en una protesta de vecinos.",
     links:"http://www.el-nacional.com/noticias/sucesos/tiro-fusil-murio-joven-discapacitado-petare_178468" ,
     image: "app/images/photos/mervis-guitian.jpg"
   },
@@ -355,7 +355,7 @@ const people = [
       year: 2017
     },
     place_death: "Estado Táchira",
-    comments: "recibió dos tiros en sitio donde se efectuaba una protesta en San Cristobal",
+    comments: "Recibió dos tiros en sitio donde se efectuaba una protesta en San Cristobal",
     links:"https://www.el-carabobeno.com/murio-joven-recibio-dos-tiros-sitio-donde-se-efectuaba-una-protesta-san-cristobal/" ,
     image: "app/images/photos/jackson-hernandez.jpg"
   },
@@ -565,14 +565,14 @@ const people = [
       year: 2017
     },
     place_death: "Estado Carabobo",
-    comments: "ecibió un disparo en el rostro durante una protesta, proveniente del arma de un PoliCarabobo, cuando se encontraba cerca de una turba en el sector Pinzón Herrera de Central Tacarigua, municipio Carlos Arvelo del estado Carabobo. Su muerte no ha sido reconocida por el Ministerio Público.",
+    comments: "Recibió un disparo en el rostro durante una protesta, proveniente del arma de un PoliCarabobo, cuando se encontraba cerca de una turba en el sector Pinzón Herrera de Central Tacarigua, municipio Carlos Arvelo del estado Carabobo. Su muerte no ha sido reconocida por el Ministerio Público.",
     links:"http://runrun.es/nacional/308297/ministerio-publico-aun-no-reconoce-cinco-muertes-en-carabobo-en-marco-de-protestas.html" ,
     image: "app/images/photos/no-photo.jpg"
   },
   {
     id: 40,
     name: "Hecder Lugo Pérez",
-    description: "practicaba natación, era bachiller",
+    description: "Practicaba natación, era bachiller",
     age: 20,
     date_death: {
       day: 05,
@@ -610,7 +610,7 @@ const people = [
       year: 2017
     },
     place_death: "Estado Mérida",
-    comments: "fue una de las personas heridas durante las manifestaciones del lunes 8 de mayo en Mérida, recibió una bala en el cráneo por la cual falleció el 10 de mayo en el Hospital Universitario de Los Andes.",
+    comments: "Fue una de las personas heridas durante las manifestaciones del lunes 8 de mayo en Mérida, recibió una bala en el cráneo por la cual falleció el 10 de mayo en el Hospital Universitario de Los Andes.",
     links:"http://www.eluniversal.com/noticias/sucesos/fallecio-maracaibo-joven-herido-abdomen_651310" ,
     image: "app/images/photos/anderson-dugarte.jpg"
   },
@@ -669,7 +669,7 @@ const people = [
       month: 05,
       year: 2017
     },
-    comments: "el adolescente fue asesinado producto de un disparo de arma de fuego en la cara mientras se encontraba en el “Gran Plantón” realizado el 16 de mayo en el municipio Pedraza.",
+    comments: "El adolescente fue asesinado producto de un disparo de arma de fuego en la cara mientras se encontraba en el “Gran Plantón” realizado el 16 de mayo en el municipio Pedraza.",
     place_death: "Estado Barinas",
     links:"http://runrun.es/nacional/venezuela-2/309541/fallecio-adolescente-herido-de-bala-durante-gran-planton-en-barinas.html" ,
     image: "app/images/photos/yeison-castillo.jpg"
@@ -744,7 +744,7 @@ const people = [
       month: 05,
       year: 2017
     },
-    comments: "Falecio en horas luego de recibir un disparo en la cabeza por colectivos armados en Córdoba, estado Táchira.",
+    comments: "Falleció en horas luego de recibir un disparo en la cabeza por colectivos armados en Córdoba, estado Táchira.",
     place_death: "Estado Táchira",
     links:"http://www.el-nacional.com/noticias/oposicion/quien-era-paul-moreno-miembro-cruz-verde-asesinado-protesta_183016" ,
     image: "app/images/photos/daniel-rodriguez.jpg"
@@ -767,7 +767,7 @@ const people = [
   {
     id: 53,
     name: "Edy Alejandro Terán Aguilar",
-    description: "estudiante del quinto semestre de administración de recursos humanos en la Universidad Simón Rodríguez",
+    description: "Estudiante del quinto semestre de administración de recursos humanos en la Universidad Simón Rodríguez",
     age: 23,
     date_death: {
       day: 20,
@@ -804,7 +804,7 @@ const people = [
       month: 05,
       year: 2017
     },
-    comments: "se encontraba en las adyacencias de la urbanización Palma de Oro, cuando fue herido con un arma de fuego en el pecho. Familiares y testigos indican que un encapuchado habría disparado al joven.",
+    comments: "Se encontraba en las adyacencias de la urbanización Palma de Oro, cuando fue herido con un arma de fuego en el pecho. Familiares y testigos indican que un encapuchado habría disparado al joven.",
     place_death: "Estado Barinas",
     links:"http://www.talcualdigital.com/Nota/142943/confirman-tercer-muerto-por-las-protestas-en-el-estado-barinas" ,
     image: "app/images/photos/elvis-montilla.jpg"
@@ -819,7 +819,7 @@ const people = [
       month: 05,
       year: 2017
     },
-    comments: " se encontraba durante una manifestación que se efectuaba frente a su domicilio en la calle Cedeño delestado Barinas, momento en el cual fue impactado  por un proyectil disparado por arma de fuego, causándole una herida en elintercostal izquierdo.",
+    comments: "Se encontraba durante una manifestación que se efectuaba frente a su domicilio en la calle Cedeño delestado Barinas, momento en el cual fue impactado  por un proyectil disparado por arma de fuego, causándole una herida en elintercostal izquierdo.",
     place_death: "Estado Barinas",
     links:"http://www.talcualdigital.com/Nota/142943/confirman-tercer-muerto-por-las-protestas-en-el-estado-barinas" ,
     image: "app/images/photos/no-photo.jpg"
@@ -999,7 +999,7 @@ const people = [
       month: 06,
       year: 2017
     },
-    comments: "en horas de la tarde la víctima transitaba por el sector, e intentaba atravesar la protesta, cuando se formó un tiroteo y recibió un disparo en la región intercostal derecha. De inmediato, fue trasladada al Hospital Antonio María Pineda, donde ingresó sin signos vitales.",
+    comments: "En horas de la tarde la víctima transitaba por el sector, e intentaba atravesar la protesta, cuando se formó un tiroteo y recibió un disparo en la región intercostal derecha. De inmediato, fue trasladada al Hospital Antonio María Pineda, donde ingresó sin signos vitales.",
     place_death: "Estado Lara",
     links:"http://www.elimpulso.com/featured/dama-trataba-pasar-una-protesta-murio-al-recibir-disparo-barquisimeto-01jun" ,
     image: "app/images/photos/maria-rodriguez.jpg"
@@ -1044,7 +1044,7 @@ const people = [
       month: 06,
       year: 2017
     },
-    comments: "la víctima falleció luego de ser incinerado y apuñalado durante una protesta en Altamira, Caracas, el pasado 20 de mayo. Figuera murió este domingo 4 de junio en horas de la madrugada producto de sus heridas. Hasta el momento se desconocen detalles del victimario.",
+    comments: "La víctima falleció luego de ser incinerado y apuñalado durante una protesta en Altamira, Caracas, el pasado 20 de mayo. Figuera murió este domingo 4 de junio en horas de la madrugada producto de sus heridas. Hasta el momento se desconocen detalles del victimario.",
     place_death: "Estado Miranda",
     links:"http://www.bbc.com/mundo/noticias-america-latina-40007635",
     image: "app/images/photos/orlando-figuera.jpg"
@@ -1269,7 +1269,7 @@ const people = [
       month: 06,
       year: 2017
     },
-    comments: "durante la noche del 27 de junio Toro se encontraba en una manifestación con un grupo de personas que pretendía ingresar indebidamente a locales comerciales del sector La Pica del municipio Libertador de Aragua. Oficiales de la policía regional intentaban dispersarlos con el uso de bombas lacrimógenas cuando sujetos desconocidos dispararon al grupo e hirieron al hombre.",
+    comments: "Durante la noche del 27 de junio Toro se encontraba en una manifestación con un grupo de personas que pretendía ingresar indebidamente a locales comerciales del sector La Pica del municipio Libertador de Aragua. Oficiales de la policía regional intentaban dispersarlos con el uso de bombas lacrimógenas cuando sujetos desconocidos dispararon al grupo e hirieron al hombre.",
     place_death: "Estado Aragua",
     links:"https://www.elperiodiquito.com/noticias/67452/Asesinaron-a-vendedor-de-donas",
     image: "app/images/photos/no-photo.jpg"
@@ -1524,7 +1524,7 @@ const people = [
       month: 07,
       year: 2017
     },
-    comments: "fue asesinada de un disparo por Colectivos Paramilitares en la avenida Sucre de Catia. Caracas.",
+    comments: "Fue asesinada de un disparo por Colectivos Paramilitares en la avenida Sucre de Catia. Caracas.",
     place_death: "Distrito Capital",
     links:"http://www.el-nacional.com/noticias/politica/imputaran-tres-hombres-por-homicidio-xiomara-scott_194228",
     image: "app/images/photos/xiomara-scott.jpg"
@@ -1690,7 +1690,7 @@ const people = [
       year: 2017
     },
     comments: "Herido de bala el 26 de julio en el puente 9 de diciembre de El Paraiso Caracas. Falleció en el Hospital MIguel Pérez Carreño el 27 de julio.",
-    place_death: "Distritu Capital",
+    place_death: "Distrito Capital",
     links:"http://www.caraotadigital.net/sucesos/colectivos-asesinaron-un-menor-durante-protesta-en-el-paraiso/",
     image: "app/images/photos/no-photo.jpg"
   },
@@ -1749,13 +1749,13 @@ const people = [
       month: 07,
       year: 2017
     },
-    comments: "recibió un impacto de bala el 26 de julio durante una manifestaciones en las Res. El Molino en Ejido estado Táchira.",
+    comments: "Recibió un impacto de bala el 26 de julio durante una manifestaciones en las Res. El Molino en Ejido estado Táchira.",
     place_death: "Estado Táchira",
     links:"https://www.diariodelosandes.com/index.php?r=site/noticiasecundaria&id=50952",
     image: "app/images/photos/oneiver-quiñones.jpg"
   },
   {
-    id: 118,
+    id: 119,
     name: "Eduardo Rodríguez Gil",
     description: "Teniente coronel de la Guardia Nacional Bolivariana retirado",
     age: 53,
@@ -1770,7 +1770,7 @@ const people = [
     image: "app/images/photos/eduardo-rodriguez.jpg"
   },
   {
-    id: 119,
+    id: 120,
     name: "Gustavo Villamizar",
     description: "",
     age: 18,
@@ -1785,7 +1785,7 @@ const people = [
     image: "app/images/photos/gustavo-villamizar.jpg"
   },
   {
-    id: 120,
+    id: 121,
     name: "Marcel Pereira ",
     description: "",
     age: 38,
@@ -1800,7 +1800,7 @@ const people = [
     image: "app/images/photos/no-photo.jpg"
   },
   {
-    id: 121,
+    id: 122,
     name: "Iraldo José Gutiérrez",
     description: "",
     age: 38,
@@ -1815,7 +1815,7 @@ const people = [
     image: "app/images/photos/no-photo.jpg"
   },
   {
-    id: 122,
+    id: 123,
     name: "Eduardo Olave",
     description: "",
     age: 38,
@@ -1830,7 +1830,7 @@ const people = [
     image: "app/images/photos/no-photo.jpg"
   },
   {
-    id: 123,
+    id: 124,
     name: "Angelo Yordano Méndez",
     description: "",
     age: 28,
@@ -1845,7 +1845,7 @@ const people = [
     image: "app/images/photos/no-photo.jpg"
   },
   {
-    id: 124,
+    id: 125,
     name: "Ender Peña Sepulveda",
     description: "Era capitán del equipo sub 17 de Lotería del Táchira Futbol Club.",
     age: 19,
@@ -1860,7 +1860,7 @@ const people = [
     image: "app/images/photos/ender-pena.jpg"
   },
   {
-    id: 125,
+    id: 126,
     name: "Albert Rosales",
     description: "",
     age: 53,
@@ -1875,7 +1875,7 @@ const people = [
     image: "app/images/photos/albert-rosales.jpg"
   },
   {
-    id: 126,
+    id: 127,
     name: "Luis Beltrán Zambrano Lucena",
     description: "Era Deportista, conocido como El Pulpo, dejó tres hijos huérfanos.",
     age: 43,
@@ -1890,7 +1890,7 @@ const people = [
     image: "app/images/photos/luis-zambrano.jpg"
   },
   {
-    id: 127,
+    id: 128,
     name: "Ricardo Campos",
     description: "Dirigente juvenil de Acción Democrática en Cumaná",
     age: 30,
@@ -1905,7 +1905,7 @@ const people = [
     image: "app/images/photos/ricardo-campos.jpg"
   },
   {
-    id: 128,
+    id: 129,
     name: "Juan Gómez",
     description: "",
     age: 32,
@@ -1920,7 +1920,7 @@ const people = [
     image: "app/images/photos/no-photo.jpg"
   },
   {
-    id: 129,
+    id: 130,
     name: "Julio Manrrique",
     description: "Era parte del partido Un Nuevo Tiempo en la entidad",
     age: 22,
@@ -1935,7 +1935,7 @@ const people = [
     image: "app/images/photos/no-photo.jpg"
   },
   {
-    id: 130,
+    id: 131,
     name: "José Fernando Sanchez",
     description: "",
     age: 25,
@@ -1950,7 +1950,7 @@ const people = [
     image: "app/images/photos/no-photo.jpg"
   },
   {
-    id: 131,
+    id: 132,
     name: "Miguel Urdaneta",
     description: "Era parte del partido Un Nuevo Tiempo en la entidad",
     age: 25,
@@ -1965,7 +1965,7 @@ const people = [
     image: "app/images/photos/no-photo.jpg"
   },
   {
-    id: 132,
+    id: 133,
     name: "Willmer Smith Flores",
     description: "",
     age: 19,
@@ -1980,7 +1980,7 @@ const people = [
     image: "app/images/photos/willmer-flores.jpg"
   },
   {
-    id: 133,
+    id: 134,
     name: "Luis Ortiz",
     description: "",
     age: 17,
@@ -1995,7 +1995,7 @@ const people = [
     image: "app/images/photos/luis-ortiz.jpg"
   },
   {
-    id: 134,
+    id: 135,
     name: "Adrian Rodríguez",
     description: "",
     age: 13,
@@ -2010,7 +2010,7 @@ const people = [
     image: "app/images/photos/adrian-rodriguez.jpg"
   },
   {
-    id: 135,
+    id: 136,
     name: "Ronald Donny Ramírez Rosales",
     description: "Sargento  2º (GNB)",
     age: 23,
@@ -2025,7 +2025,7 @@ const people = [
     image: "app/images/photos/ronald-ramirez.jpg"
   },
   {
-    id: 136,
+    id: 137,
     name: "Ándres (Apellido por identificar)",
     description: "Sargento  2º (GNB)",
     age: 23,
@@ -2040,7 +2040,7 @@ const people = [
     image: "app/images/photos/no-photo.jpg"
   },
   {
-    id: 137,
+    id: 138,
     name: "Daniela de Jesús Salomón Manchado",
     description: "",
     age: 15,
@@ -2055,7 +2055,7 @@ const people = [
     image: "app/images/photos/daniela-salomon.jpg"
   },
   {
-    id: 138,
+    id: 139,
     name: "Jhony Colmenares",
     description: "Era agricultor, laboraba en una pequeña finca que tenía su familia.",
     age: 25,
@@ -2070,7 +2070,7 @@ const people = [
     image: "app/images/photos/jhonny-colmenares.jpg"
   },
   {
-    id: 139,
+    id: 140,
     name: "Ramón Rivas",
     description: "Era miembro de la formación antichavista Avanzada Progresista.",
     age: 53,
@@ -2085,7 +2085,7 @@ const people = [
     image: "app/images/photos/ramon-rivas.jpg"
   },
   {
-    id: 140,
+    id: 141,
     name: "Martín Saturno Baudin Quero",
     description: "",
     age: 39,
@@ -2100,7 +2100,7 @@ const people = [
     image: "app/images/photos/no-photo.jpg"
   },
   {
-    id: 141,
+    id: 142,
     name: "Willmerys Ocarina Zerpa",
     description: "Estudiaba Ingeniería Geológica en la Universidad de Oriente (UDO).",
     age: 20,
@@ -2115,7 +2115,7 @@ const people = [
     image: "app/images/photos/willmerys-zerpa.jpg"
   },
   {
-    id: 142,
+    id: 143,
     name: "Eduardo Orozco",
     description: "El joven estudiaba en Valencia estado Carabobo, se había graduado el año pasado en el colegio Rio Claro en Barquisimeto",
     age: 19,
@@ -2124,7 +2124,7 @@ const people = [
       month: 08,
       year: 2017
     },
-    comments: "murió durante actos represivos por parte del Conas en el distribuidor de Bellas Artes vía hacia la población de Cabudare. autoridades indicaron que fueron atacado con bombas Molotov y los efectivos militares dispararon. ",
+    comments: "Murió durante actos represivos por parte del Conas en el distribuidor de Bellas Artes vía hacia la población de Cabudare. autoridades indicaron que fueron atacado con bombas Molotov y los efectivos militares dispararon. ",
     place_death: "Estado Lara",
     links:"http://www.eluniversal.com/noticias/venezuela/asesinado-joven-durante-protesta-lara_664739",
     image: "app/images/photos/eduardo-orozco.jpg"
