@@ -555,7 +555,7 @@ const people = [
     image: "images/photos/gerardo-barrera.jpg"
   },
   {
-    id: 39,
+    id: 38,
     name: "Luis Eloy Pacheco",
     description: "Se dedicaba a  vender frutas y verduras",
     age: 22,
@@ -570,7 +570,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 40,
+    id: 39,
     name: "Hecder Lugo Pérez",
     description: "Practicaba natación, era bachiller",
     age: 20,
@@ -585,7 +585,7 @@ const people = [
     image: "images/photos/hecder-perez.jpg"
   },
   {
-    id: 41,
+    id: 40,
     name: "Miguel Joseph Medina Romero",
     description: "Se trata de la primera muerte en Zulia como resultado de las protestas que se registran desde el 6 de abril contra el gobierno",
     age: 20,
@@ -600,7 +600,7 @@ const people = [
     image: "images/photos/miguel-medina.jpg"
   },
   {
-    id: 42,
+    id: 41,
     name: "Anderson Enrique Dugarte",
     description: "Trabajaba como mototaxista",
     age: 32,
@@ -615,7 +615,7 @@ const people = [
     image: "images/photos/anderson-dugarte.jpg"
   },
   {
-    id: 43,
+    id: 42,
     name: "Miguel Fernando Castillo Bracho",
     description: "Era comunicador social mención audiovisual egresado de la Universidad Santa María.",
     age: 27,
@@ -630,7 +630,7 @@ const people = [
     image: "images/photos/miguel-castillo.jpg"
   },
   {
-    id: 44,
+    id: 43,
     name: "Luis José Alviárez Chacón",
     description: "Era hijo único, bachiller, atleta en la disciplina de Ping Pong.",
     age: 18,
@@ -645,7 +645,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 45,
+    id: 44,
     name: "Diego Armando Hernández ",
     description: "Su sitio de residencia era en el barrio Los Hornos, en Capacho Viejo, municipio aledaño a donde murió Diego Hernández",
     age: 33,
@@ -660,7 +660,7 @@ const people = [
     image: "images/photos/diego-hernandez.jpg"
   },
   {
-    id: 46,
+    id: 45,
     name: "Yeison Nathanael Mora Castillo",
     description: "El joven laboraba en una ferretería.",
     age: 17,
@@ -675,7 +675,7 @@ const people = [
     image: "images/photos/yeison-castillo.jpg"
   },
   {
-    id: 47,
+    id: 46,
     name: "José Francisco Guerrero ",
     description: "Se dedicaba al trabajo de obrero, tenía seis hermanos",
     age: 15,
@@ -690,7 +690,7 @@ const people = [
     image: "images/photos/jose-guerrero.jpg"
   },
   {
-    id: 48,
+    id: 47,
     name: "Diego Fernando Arellano",
     description: "Era biologo",
     age: 31,
@@ -705,7 +705,7 @@ const people = [
     image: "images/photos/diego-arellano.jpg"
   },
   {
-    id: 49,
+    id: 48,
     name: "Manuel Felipe Castellanos",
     description: "",
     age: 46,
@@ -720,7 +720,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 50,
+    id: 49,
     name: "Paul Moreno",
     description: "Estudiante de Medicina y miembro de la Cruz Verde",
     age: 24,
@@ -735,7 +735,7 @@ const people = [
     image: "images/photos/paul-moreno.jpg"
   },
   {
-    id: 51,
+    id: 50,
     name: "Daniel Rodríguez",
     description: "Estudiante de la Universidad Católica del Táchira",
     age: 18,
@@ -750,7 +750,7 @@ const people = [
     image: "images/photos/daniel-rodriguez.jpg"
   },
   {
-    id: 52,
+    id: 51,
     name: "Jorge Escandón",
     description: "Funcionario de la policía de Carabobo",
     age: 37,
@@ -765,7 +765,7 @@ const people = [
     image: "images/photos/jorge-escandon.jpg"
   },
   {
-    id: 53,
+    id: 52,
     name: "Edy Alejandro Terán Aguilar",
     description: "Estudiante del quinto semestre de administración de recursos humanos en la Universidad Simón Rodríguez",
     age: 23,
@@ -780,7 +780,7 @@ const people = [
     image: "images/photos/edy-teran.jpg"
   },
   {
-    id: 54,
+    id: 53,
     name: "Yorman Alí Bervecia Cabeza",
     description: "Había culminado sus estudios de Bachillerato, participaba en las manifestaciones porque quería un mejor futuro.",
     age: 19,
@@ -795,7 +795,7 @@ const people = [
     image: "images/photos/yorman-bervecia.jpg"
   },
   {
-    id: 55,
+    id: 54,
     name: "Elvis Adonis Montilla Pérez ",
     description: "Estudiaba en la Universidad Francisco de Miranda de Coro.",
     age: 22,
@@ -810,7 +810,7 @@ const people = [
     image: "images/photos/elvis-montilla.jpg"
   },
   {
-    id: 56,
+    id: 55,
     name: "Alfredo José Briceño Carrizales",
     description: "Dejó un hijo de tres años",
     age: 25,
@@ -825,7 +825,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 57,
+    id: 56,
     name: "Miguel Ángel Bravo Ramírez",
     description: "Era obrero",
     age: 25,
@@ -840,7 +840,7 @@ const people = [
     image: "images/photos/Miguel-Bravo.jpg"
   },
   {
-    id: 59,
+    id: 57,
     name: "Ynigo Jesús Leiva",
     description: "Dueño de un abasto en la calle Apure del Barrio San Andrés de El Valle.",
     age: 66,
@@ -855,7 +855,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 60,
+    id: 58,
     name: "Freiber Pérez Vielma",
     description: "",
     age: 21,
@@ -870,7 +870,7 @@ const people = [
     image: "images/photos/freiber-perez.jpg"
   },
   {
-    id: 61,
+    id: 59,
     name: "Erick Antonio Molina Contreras",
     description: "Obrero",
     age: 35,
@@ -885,7 +885,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 62,
+    id: 60,
     name: "Juan Antonio Sánchez Suárez",
     description: "",
     age: 21,
@@ -900,7 +900,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 63,
+    id: 61,
     name: "Adrián José Duque Bravo",
     description: "Contador público",
     age: 24,
@@ -915,7 +915,7 @@ const people = [
     image: "images/photos/adrian-duque.jpg"
   },
   {
-    id: 64,
+    id: 62,
     name: "Augusto Sergio Pugas Velásquez",
     description: "Estudiante de enfermeria",
     age: 22,
@@ -930,7 +930,7 @@ const people = [
     image: "images/photos/augusto-pugas.jpg"
   },
   {
-    id: 65,
+    id: 63,
     name: "Manuel Sosa Ponte",
     description: "",
     age: 33,
@@ -945,7 +945,7 @@ const people = [
     image: "images/photos/manuel-sosa.jpg"
   },
   {
-    id: 66,
+    id: 64,
     name: "Danny José Subero ",
     description: "Teniente retirado de la Guardia Nacional Bolivariana",
     age: 34,
@@ -960,7 +960,7 @@ const people = [
     image: "images/photos/dany-subero.jpg"
   },
   {
-    id: 67,
+    id: 65,
     name: "Cesar David Pereira Villegas",
     description: "Estudiaba publicidad y mercadeo en el IUTIRLA, tambien era dirigente juvenil de Voluntad Popular",
     age: 21,
@@ -975,7 +975,7 @@ const people = [
     image: "images/photos/cesar-pereira.jpg"
   },
   {
-    id: 68,
+    id: 66,
     name: "Nelson Antonio Moncada Gómez",
     description: "Era Juez de la Sala 1 de la Corte de Apelaciones del TSJ en el Circuito Judicial Penal del Área Metropolitana de Caracas",
     age: 37,
@@ -990,7 +990,7 @@ const people = [
     image: "images/photos/nelson-moncada.jpg"
   },
   {
-    id: 69,
+    id: 67,
     name: "María Estefanía Rodríguez",
     description: "Trabajaba como camarera en un hotel",
     age: 46,
@@ -1005,7 +1005,7 @@ const people = [
     image: "images/photos/maria-rodriguez.jpg"
   },
   {
-    id: 70,
+    id: 68,
     name: "Luis Miguel Gutiérrez Molina",
     description: "Trabajaba como caletero descargando materiales de construcción",
     age: 20,
@@ -1020,7 +1020,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 71,
+    id: 69,
     name: "Yoiner Javier Peña Hernández",
     description: "Joven de 28 años de edad con discapacidad, que a pesar de su condición era un individuo activo",
     age: 28,
@@ -1035,7 +1035,7 @@ const people = [
     image: "images/photos/yoiner-peña.jpg"
   },
   {
-    id: 72,
+    id: 70,
     name: "Orlando Figuera",
     description: "Se dedicaba al oficio de cuidar y aparcar vehículos en un supermercado en Las Mercedes",
     age: 21,
@@ -1050,7 +1050,7 @@ const people = [
     image: "images/photos/orlando-figuera.jpg"
   },
   {
-    id: 73,
+    id: 71,
     name: "Edwar José Paredes",
     description: "Empleado del CDI",
     age: 25,
@@ -1065,7 +1065,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 74,
+    id: 72,
     name: "Neomar Lander Armas",
     description: "“Yo tengo 17 años, y no estoy estudiando porque me quiero ir del país a buscar un mejor país, pero sinceramente no me quiero ir de Venezuela, este es mi país yo nací aquí y estoy luchando por él”, declaró en una oportunidad Neomar en un vídeo que también ha circulado por las redes sociales",
     age: 17,
@@ -1080,7 +1080,7 @@ const people = [
     image: "images/photos/neomar-lander.jpg"
   },
   {
-    id: 75,
+    id: 73,
     name: "Sócrates Salgado",
     description: "Había sido operado del corazón hace 6 meses. Vivía en El Teleférico Macuto",
     age: 49,
@@ -1095,7 +1095,7 @@ const people = [
     image: "images/photos/socrates-salgado.jpg"
   },
   {
-    id: 76,
+    id: 74,
     name: "Douglas Acevedo Sánchez",
     description: "Supervisor Jefe de la Policía del estado Mérida",
     age: 41,
@@ -1110,7 +1110,7 @@ const people = [
     image: "images/photos/douglas-acevedo.jpg"
   },
   {
-    id: 77,
+    id: 75,
     name: "José Amador Lorenzo González",
     description: "",
     age: 50,
@@ -1125,7 +1125,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 78,
+    id: 76,
     name: "Luis Alberto Machado Valdez",
     description: "",
     age: 27,
@@ -1140,7 +1140,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 79,
+    id: 77,
     name: "Luis Enrique Vera Sulbarán",
     description: "Estudiante de administración",
     age: 20,
@@ -1155,7 +1155,7 @@ const people = [
     image: "images/photos/luis-vera.jpg"
   },
   {
-    id: 80,
+    id: 78,
     name: "José Gregorio Pérez Pérez",
     description: "Estudiante universitario",
     age: 21,
@@ -1170,7 +1170,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 81,
+    id: 79,
     name: "Nelson Daniel Arevalo Avendaño",
     description: "Era conocido como Dominic",
     age: 21,
@@ -1185,7 +1185,7 @@ const people = [
     image: "images/photos/nelson-arevalo.jpg"
   },
   {
-    id: 82,
+    id: 80,
     name: "Fabian Urbina",
     description: "Estudiaba tercer semestre de Mercadeo y Publicidad.",
     age: 17,
@@ -1200,7 +1200,7 @@ const people = [
     image: "images/photos/fabian-urbina.jpg"
   },
   {
-    id: 83,
+    id: 81,
     name: "David José Vallenilla Luis",
     description: "TSU en enfermería",
     age: 22,
@@ -1215,7 +1215,7 @@ const people = [
     image: "images/photos/david-vallenilla.jpg"
   },
   {
-    id: 84,
+    id: 82,
     name: "Lendy Guanipa Millán",
     description: "Lendy y su esposa vivían en situación de calle, debajo de un puente, a pocos metros de la redoma de Petare.",
     age: 27,
@@ -1230,7 +1230,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 85,
+    id: 83,
     name: "Ronny Alberto Parra Araujo",
     description: "Sargento primero de la Guardia Nacional Bolivariana",
     age: 27,
@@ -1245,7 +1245,7 @@ const people = [
     image: "images/photos/ronny-parra.jpg"
   },
   {
-    id: 86,
+    id: 84,
     name: "Jhonatan José Zavatti Serrano",
     description: "",
     age: 25,
@@ -1260,7 +1260,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 87,
+    id: 85,
     name: "Javier Alexander Toro Trejo",
     description: "Era Comerciante",
     age: 34,
@@ -1275,7 +1275,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 88,
+    id: 86,
     name: "Isael Jesús Macadán Aquino",
     description: "Estudiante",
     age: 18,
@@ -1290,7 +1290,7 @@ const people = [
     image: "images/photos/isael-macadan.jpg"
   },
   {
-    id: 89,
+    id: 87,
     name: "Robeto Enrique Durán Ramírez",
     description: "Era vendedor. Fue camarógrafo en el canal Somos TV y dejó dos hijos.",
     age: 26,
@@ -1305,7 +1305,7 @@ const people = [
     image: "images/photos/roberto-duran.jpg"
   },
   {
-    id: 90,
+    id: 88,
     name: "Luiyin Alfonso Paz Borjas",
     description: "Paz deja una hija de tres años y vivía en el barrio La Chinita.",
     age: 20,
@@ -1320,7 +1320,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 91,
+    id: 89,
     name: "Víctor Manuel Betancourt González",
     description: "Residía en el sector Sabater,",
     age: 18,
@@ -1335,7 +1335,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 92,
+    id: 90,
     name: "Alexander Rafael Sanoja Sánchez",
     description: "Era técnico en refrigeración en la clínica Falcón.",
     age: 36,
@@ -1350,7 +1350,7 @@ const people = [
     image: "images/photos/alexander-sanoja.jpg"
   },
   {
-    id: 93,
+    id: 91,
     name: "Alfredo José Figuera Gutiérrez",
     description: "Egresaría de sexto año y se graduaría como técnico medio de informática",
     age: 19,
@@ -1365,7 +1365,7 @@ const people = [
     image: "images/photos/alfredo-figuera.jpg"
   },
   {
-    id: 94,
+    id: 92,
     name: "Eduardo José Márquez Albarrán",
     description: "Márquez estaba internado en tras haber sido herido el pasado 13 de junio durante una protesta en el sector Pie del Llano.",
     age: 20,
@@ -1380,7 +1380,7 @@ const people = [
     image: "images/photos/eduardo-marquez.jpg"
   },
   {
-    id: 94,
+    id: 93,
     name: "Rubén Alexander Morillo Pereira",
     description: "Era conocido como Bube",
     age: 33,
@@ -1395,7 +1395,7 @@ const people = [
     image: "images/photos/ruben-morillo.jpg"
   },
   {
-    id: 95,
+    id: 94,
     name: "Fernando Rojas Rubio",
     description: "",
     age: 49,
@@ -1410,7 +1410,7 @@ const people = [
     image: "images/photos/fernando-rojas.jpg"
   },
   {
-    id: 96,
+    id: 95,
     name: "José Gregorio Mendoza Durán",
     description: "Era propietario de una carnicería en Los Cerrajones",
     age: 44,
@@ -1425,7 +1425,7 @@ const people = [
     image: "images/photos/jose-gregorio-mendoza.jpg"
   },
   {
-    id: 97,
+    id: 96,
     name: "José Rodolfo Bouzamayor Bravo",
     description: "Motorizado",
     age: 33,
@@ -1440,7 +1440,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 98,
+    id: 97,
     name: "Ramsés Enrique Martínez",
     description: "Fue herido el 30.06.17 y falleció el 01.07.17.",
     age: 20,
@@ -1455,7 +1455,7 @@ const people = [
     image: "images/photos/ramses-martinez.jpg"
   },
   {
-    id: 99,
+    id: 98,
     name: "Engelberth Alexander Duque Chacón",
     description: "Trabajaba en Palmira, en un taller de tubos de escape.",
     age: 24,
@@ -1470,7 +1470,7 @@ const people = [
     image: "images/photos/engelberth-duque.jpg"
   },
   {
-    id: 100,
+    id: 99,
     name: "Rubén Darío González Jiménez",
     description: "Iba a recibir su título de bachiller a finales de julio, Entre sus planes estaba irse del país con su hermana mayor en busca de nuevas oportunidades.",
     age: 16,
@@ -1485,7 +1485,7 @@ const people = [
     image: "images/photos/ruben-gonzalez.jpg"
   },
   {
-    id: 101,
+    id: 100,
     name: "Oswaldo Rafael Britt",
     description: "Cursaba segundo semestre de enfermería, en la Universidad de Oriente (UDO).",
     age: 17,
@@ -1500,7 +1500,7 @@ const people = [
     image: "images/photos/oswaldo-britt.jpg"
   },
   {
-    id: 102,
+    id: 101,
     name: "Yanet Angulo Parra",
     description: "Era Profesora jubilada",
     age: 56,
@@ -1515,7 +1515,7 @@ const people = [
     image: "images/photos/yanet-angulo.jpg"
   },
   {
-    id: 103,
+    id: 102,
     name: "Xiomara Soledad Scott",
     description: "Era enfermera",
     age: 61,
@@ -1530,7 +1530,7 @@ const people = [
     image: "images/photos/xiomara-scott.jpg"
   },
   {
-    id: 104,
+    id: 103,
     name: "Héctor Alejandro Anuel Blanco",
     description: "Motorizado",
     age: 35,
@@ -1545,7 +1545,7 @@ const people = [
     image: "images/photos/hector-anuel.jpg"
   },
   {
-    id: 105,
+    id: 104,
     name: "Juan Moleiro",
     description: "Sr sufria del corazón",
     age: 76,
@@ -1560,7 +1560,7 @@ const people = [
     image: "images/photos/juan-moleiro.jpg"
   },
   {
-    id: 106,
+    id: 105,
     name: "Andrés José Uzcátegui Ávila",
     description: "",
     age: 23,
@@ -1575,7 +1575,7 @@ const people = [
     image: "images/photos/andres-uzcategui.jpg"
   },
   {
-    id: 107,
+    id: 106,
     name: "Ronney Eloy Tejera Soler",
     description: "",
     age: 24,
@@ -1590,7 +1590,7 @@ const people = [
     image: "images/photos/ronney-tejera.jpg"
   },
   {
-    id: 108,
+    id: 107,
     name: "Eury Rafael Hurtado",
     description: "",
     age: 34,
@@ -1605,7 +1605,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 109,
+    id: 108,
     name: "Víctor Manuel Márquez",
     description: "",
     age: 34,
@@ -1620,7 +1620,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 110,
+    id: 109,
     name: "Carlos Alberto Paredes Carrizo",
     description: "Oficial jefe de Polimérida",
     age: 30,
@@ -1635,7 +1635,7 @@ const people = [
     image: "images/photos/carlos-paredes.jpg"
   },
   {
-    id: 111,
+    id: 110,
     name: "Rafael Antonio Vergara",
     description: "",
     age: 30,
@@ -1650,7 +1650,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 112,
+    id: 111,
     name: "Jean Carlos Aponte",
     description: "",
     age: 16,
@@ -1665,7 +1665,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 113,
+    id: 112,
     name: "Enderson Caldera",
     description: "",
     age: 23,
@@ -1680,7 +1680,7 @@ const people = [
     image: "images/photos/enderson-caldera.jpg"
   },
   {
-    id: 114,
+    id: 113,
     name: "Glimber Terán",
     description: "El menor estaba por comenzar a estudiar cuarto año en el liceo Gran Colombia ubicado en El Cementerio. Vivía en la Cota 905.",
     age: 16,
@@ -1695,7 +1695,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 115,
+    id: 114,
     name: "Leonardo González Barreto",
     description: "Gerente de Kromi Prebo. Colaboraba haciendo y dando comida para las sopas en los trancazos",
     age: 48,
@@ -1710,7 +1710,7 @@ const people = [
     image: "images/photos/leonardo-gonzalez.jpg"
   },
   {
-    id: 116,
+    id: 115,
     name: "José Miguel Pestano",
     description: "",
     age: 23,
@@ -1725,7 +1725,7 @@ const people = [
     image: "images/photos/jose-pestano.jpg"
   },
   {
-    id: 117,
+    id: 116,
     name: "Rafael Canache",
     description: "",
     age: 29,
@@ -1740,7 +1740,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 118,
+    id: 117,
     name: "Oneiver Quiñones Ramírez",
     description: "Funcionario de Polimerida",
     age: 30,
@@ -1755,7 +1755,7 @@ const people = [
     image: "images/photos/oneiver-quiñones.jpg"
   },
   {
-    id: 119,
+    id: 118,
     name: "Eduardo Rodríguez Gil",
     description: "Teniente coronel de la Guardia Nacional Bolivariana retirado",
     age: 53,
@@ -1770,7 +1770,7 @@ const people = [
     image: "images/photos/eduardo-rodriguez.jpg"
   },
   {
-    id: 120,
+    id: 119,
     name: "Gustavo Villamizar",
     description: "",
     age: 18,
@@ -1785,7 +1785,7 @@ const people = [
     image: "images/photos/gustavo-villamizar.jpg"
   },
   {
-    id: 121,
+    id: 120,
     name: "Marcel Pereira ",
     description: "",
     age: 38,
@@ -1800,7 +1800,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 122,
+    id: 121,
     name: "Iraldo José Gutiérrez",
     description: "",
     age: 38,
@@ -1815,7 +1815,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 123,
+    id: 122,
     name: "Eduardo Olave",
     description: "",
     age: 38,
@@ -1830,7 +1830,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 124,
+    id: 123,
     name: "Angelo Yordano Méndez",
     description: "",
     age: 28,
@@ -1845,7 +1845,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 125,
+    id: 124,
     name: "Ender Peña Sepulveda",
     description: "Era capitán del equipo sub 17 de Lotería del Táchira Futbol Club.",
     age: 19,
@@ -1860,7 +1860,7 @@ const people = [
     image: "images/photos/ender-pena.jpg"
   },
   {
-    id: 126,
+    id: 125,
     name: "Albert Rosales",
     description: "",
     age: 53,
@@ -1875,7 +1875,7 @@ const people = [
     image: "images/photos/albert-rosales.jpg"
   },
   {
-    id: 127,
+    id: 126,
     name: "Luis Beltrán Zambrano Lucena",
     description: "Era Deportista, conocido como El Pulpo, dejó tres hijos huérfanos.",
     age: 43,
@@ -1890,7 +1890,7 @@ const people = [
     image: "images/photos/luis-zambrano.jpg"
   },
   {
-    id: 128,
+    id: 127,
     name: "Ricardo Campos",
     description: "Dirigente juvenil de Acción Democrática en Cumaná",
     age: 30,
@@ -1905,7 +1905,7 @@ const people = [
     image: "images/photos/ricardo-campos.jpg"
   },
   {
-    id: 129,
+    id: 128,
     name: "Juan Gómez",
     description: "",
     age: 32,
@@ -1920,7 +1920,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 130,
+    id: 129,
     name: "Julio Manrrique",
     description: "Era parte del partido Un Nuevo Tiempo en la entidad",
     age: 22,
@@ -1935,7 +1935,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 131,
+    id: 130,
     name: "José Fernando Sanchez",
     description: "",
     age: 25,
@@ -1950,7 +1950,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 132,
+    id: 131,
     name: "Miguel Urdaneta",
     description: "Era parte del partido Un Nuevo Tiempo en la entidad",
     age: 25,
@@ -1965,7 +1965,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 133,
+    id: 132,
     name: "Willmer Smith Flores",
     description: "",
     age: 19,
@@ -1980,7 +1980,7 @@ const people = [
     image: "images/photos/willmer-flores.jpg"
   },
   {
-    id: 134,
+    id: 133,
     name: "Luis Ortiz",
     description: "",
     age: 17,
@@ -1995,7 +1995,7 @@ const people = [
     image: "images/photos/luis-ortiz.jpg"
   },
   {
-    id: 135,
+    id: 134,
     name: "Adrian Rodríguez",
     description: "",
     age: 13,
@@ -2010,7 +2010,7 @@ const people = [
     image: "images/photos/adrian-rodriguez.jpg"
   },
   {
-    id: 136,
+    id: 135,
     name: "Ronald Donny Ramírez Rosales",
     description: "Sargento  2º (GNB)",
     age: 23,
@@ -2025,7 +2025,7 @@ const people = [
     image: "images/photos/ronald-ramirez.jpg"
   },
   {
-    id: 137,
+    id: 136,
     name: "Ándres (Apellido por identificar)",
     description: "Sargento  2º (GNB)",
     age: 23,
@@ -2040,7 +2040,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 138,
+    id: 137,
     name: "Daniela de Jesús Salomón Manchado",
     description: "",
     age: 15,
@@ -2055,7 +2055,7 @@ const people = [
     image: "images/photos/daniela-salomon.jpg"
   },
   {
-    id: 139,
+    id: 138,
     name: "Jhony Colmenares",
     description: "Era agricultor, laboraba en una pequeña finca que tenía su familia.",
     age: 25,
@@ -2070,7 +2070,7 @@ const people = [
     image: "images/photos/jhonny-colmenares.jpg"
   },
   {
-    id: 140,
+    id: 139,
     name: "Ramón Rivas",
     description: "Era miembro de la formación antichavista Avanzada Progresista.",
     age: 53,
@@ -2085,7 +2085,7 @@ const people = [
     image: "images/photos/ramon-rivas.jpg"
   },
   {
-    id: 141,
+    id: 140,
     name: "Martín Saturno Baudin Quero",
     description: "",
     age: 39,
@@ -2100,7 +2100,7 @@ const people = [
     image: "images/photos/no-photo.jpg"
   },
   {
-    id: 142,
+    id: 141,
     name: "Willmerys Ocarina Zerpa",
     description: "Estudiaba Ingeniería Geológica en la Universidad de Oriente (UDO).",
     age: 20,
@@ -2115,7 +2115,7 @@ const people = [
     image: "images/photos/willmerys-zerpa.jpg"
   },
   {
-    id: 143,
+    id: 142,
     name: "Eduardo Orozco",
     description: "El joven estudiaba en Valencia estado Carabobo, se había graduado el año pasado en el colegio Rio Claro en Barquisimeto",
     age: 19,

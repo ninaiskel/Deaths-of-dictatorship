@@ -177,6 +177,8 @@ function goBack() {
 const counter = document.getElementById('counter-num');
 counter.innerHTML = people.length;
 
+
+
 //button to top (scroll up)
 const buttonScroll = document.getElementById('scroll-to-top');
 function scrollToTop(scrollDuration) {
