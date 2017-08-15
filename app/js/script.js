@@ -147,8 +147,8 @@ function showDetails(id) {
     '<p>' + x.description + '</p>' + '</div>';
     modalContent = modalContent + peopleContent  + '<div class="details-modal-header-photo">' +
     '<img src="' + x.image + '" alt="">' + '</div>' + '</div>' +
-    '<div class="details-modal-content">' + '<button onClick="goBack()" class="button-back">' + '<svg class="icon icon-back">' +
-    '<use xlink:href="#icon-back"></use>' + '</svg>' + 'Volver' + '<button>' +
+    '<div class="details-modal-content">' + '<div><button onClick="goBack()" class="button-back">' + '<svg class="icon icon-back">' +
+    '<use xlink:href="#icon-back"></use>' + '</svg>' + 'Volver' + '<button></div>' +
     '<ul class="content-info">' + '<li class="content-info-data">' + '<span class="content-info-title">Edad</span>' +
     '<p class="content-info-result">' + x.age + ' Años' + '</p>' + '</li>' +
     '<li class="content-info-data">' + '<span class="content-info-title">' +
