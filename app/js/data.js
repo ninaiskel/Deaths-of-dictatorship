@@ -2128,5 +2128,20 @@ const people = [
     place_death: "Estado Lara",
     links:"http://www.eluniversal.com/noticias/venezuela/asesinado-joven-durante-protesta-lara_664739",
     image: "images/photos/eduardo-orozco.jpg"
+  },
+  {
+    id: 143,
+    name: "Luis Guillermo Espinoza",
+    description: "Estudiaba en el liceo El Buen Pastor de San Diego y era futbolista, desde hace ocho años pertenecía a la E. F. San Diego",
+    age: 15,
+    date_death: {
+      day: 13,
+      month: 08,
+      year: 2017
+    },
+    comments: "Fue herido por impacto de bala en la cabeza el pasado 5 de junio por la Guardia Nacional Bolivariana (GNB) mientras participaba en una manifestación en Tulipán. Su muerte fue confirmada vía Twitter por el alcalde de San Diego, Enzo Scarano. ",
+    place_death: "Estado Carabobo",
+    links:"https://www.el-carabobeno.com/luis-guillermo-espinoza-futbolista-victima-de-la-represion-en-carabobo/",
+    image: "images/photos/luis-espinoza.jpg"
   }
 ];
