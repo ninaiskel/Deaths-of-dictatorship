@@ -39,7 +39,6 @@
     }
 
     &-header {
-      align-items: flex-end;
       background: map-get($colors, first);
       color: white;
       display: flex;
@@ -61,15 +60,35 @@
         height: auto;
       }
 
+      &-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .icon-close {
+          fill: white;
+        }
+
+        .button-close-modal {
+          @include breakpoint('small') {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+          }
+        }
+      }
+
       &-photo {
         display: flex;
         flex-direction: column;
         margin-left: 20px;
         text-align: right;
+        align-self: flex-end;
 
         @include breakpoint('small') {
           margin-bottom: 20px;
           margin-left: 0;
+          align-self: flex-start;
         }
 
         img {
@@ -85,6 +104,11 @@
           @include breakpoint('small') {
             height: 180px;
             max-width: 180px;
+          }
+
+          @include breakpoint('small-small') {
+            height: 150px;
+            max-width: 150px;
           }
         }
       }

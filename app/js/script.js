@@ -143,8 +143,9 @@ function showDetails(id) {
 
   filterPeople.map(function(x) {
     let peopleContent = '<div class="details-modal-header">' +
-    '<div class="modal-header-description">' +'<h1>' + x.name + '</h1>' +
-    '<p>' + x.description + '</p>' + '</div>';
+    '<div class="details-modal-header-description">' + '<div class="button-close-modal"><button id="close-top" class="" onClick="goBack()">' +
+    '<svg class="icon icon-close"><use xlink:href="#icon-close"></use></svg></button></div>' + '<div><h1>' + x.name + '</h1>' +
+    '<p>' + x.description + '</p>' + '</div></div>';
     modalContent = modalContent + peopleContent  + '<div class="details-modal-header-photo">' +
     '<img src="' + x.image + '" alt="">' + '</div>' + '</div>' +
     '<div class="details-modal-content">' + '<div><button onClick="goBack()" class="button-back">' + '<svg class="icon icon-back">' +
@@ -164,6 +165,7 @@ function showDetails(id) {
   detailPeople.innerHTML = modalContent;
   modalDetail.classList.add('details-modal-active')
   detailPeople.classList.add('details-modal-wrap-active')
+
   return showDetails
 };
 // close modal
@@ -172,6 +174,7 @@ function goBack() {
   detailPeople.classList.remove('details-modal-wrap-active')
   return goBack
 };
+
 
 //counter people (banner)
 const counter = document.getElementById('counter-num');
